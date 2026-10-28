@@ -1,0 +1,46 @@
+[
+  {
+    "label": "actual_hold_detail_setup",
+    "utc": "2026-10-28T12:11:45.578780+00:00",
+    "image": "qa/hold_process/00_actual_hold_detail_setup.png",
+    "sha256": "e96082e234141e1098830e14ea633fd27a05a9c27c32f2cd5fec02500270d7dc",
+    "output_duration_ms_before": 728099,
+    "output_duration_ms_after": 728233,
+    "session_index": 0,
+    "actual_monitor_phase": "HOLD + DETAIL REVISION / EXISTING COMPUTED MATTE REFERENCE",
+    "recording_active": true
+  },
+  {
+    "label": "actual_hold_pilot_encode",
+    "utc": "2026-10-28T12:13:46.128644+00:00",
+    "image": "qa/hold_process/01_actual_hold_pilot_encode.png",
+    "sha256": "eca373f34222fe27a78a437ba0a8b79c3e74436f5903586afae95ada022d5d12",
+    "output_duration_ms_before": 848633,
+    "output_duration_ms_after": 848766,
+    "session_index": 0,
+    "actual_monitor_phase": "HOLD + DETAIL / ACTUAL RENDER LOG",
+    "recording_active": true
+  },
+  {
+    "label": "cadence_feedback_revision",
+    "utc": "2026-10-28T12:20:42.894773+00:00",
+    "image": "qa/hold_process/02_cadence_feedback_revision.png",
+    "sha256": "ca20d23029ad5bdfccffe5f7c645d6c65b83be982af85446dbf61d5658789f9b",
+    "output_duration_ms_before": 1265333,
+    "output_duration_ms_after": 1265533,
+    "session_index": 0,
+    "actual_monitor_phase": "SPACED WIPE REVISION / USER CADENCE UPDATE",
+    "recording_active": true
+  },
+  {
+    "label": "final_header_quality_revision",
+    "utc": "2026-10-28T12:29:46.752202+00:00",
+    "image": "qa/hold_process/03_final_header_quality_revision.png",
+    "sha256": "dd75e4ad1813eae159c00838319eca772d0fee45122d72478b9687c0bf78c4cc",
+    "output_duration_ms_before": 1809233,
+    "output_duration_ms_after": 1809399,
+    "session_index": 0,
+    "actual_monitor_phase": "FINAL CADENCE + HEADER REMOVAL /1080x1350 HQ",
+    "recording_active": true
+  }
+]

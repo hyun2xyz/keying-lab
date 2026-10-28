@@ -15,6 +15,9 @@
 /.release/
 /.repro/
 /reel_motion_local_manifest.json
+/reel_hold_local_manifest.json
+/reel_pause_local_manifest.json
+/reel_final_local_manifest.json
 *.zip
 *.mkv
 *.mov

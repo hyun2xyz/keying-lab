@@ -198,155 +198,191 @@
   ],
   "final_reel_visual_review": {
     "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
-    "revision": "motion_v2",
-    "reviewed_utc": "2026-10-28T11:38:56.772242+00:00",
-    "reviewer": "Main agent directly opened all eight final decoded motion contact sheets",
-    "scope": "72 selected decoded frames plus prior native/consecutive matte review; not an every-frame visual inspection.",
+    "revision": "final_v5",
+    "reviewed_utc": "2026-10-28T13:08:50.069682+00:00",
+    "reviewer": "Main agent directly opened all eight actual decoded contact sheets and three full1080 decoded detail frames.",
+    "scope": "72 selected decoded frames, plus full1080 views of three already selected frame509 details and prior native/consecutive matte review. Not every-frame visual inspection.",
     "evidence": [
       {
         "id": "01_hair_glasses",
-        "file": "qa/motion_encoded/01_hair_glasses_motion_encoded.jpg",
-        "sha256": "4280c2813867b4e7d83cd8302773e70a141f7ee8b4ed417f7858c498a6f087f5",
+        "file": "qa/hold_encoded/01_hair_glasses_final_encoded.jpg",
+        "sha256": "836f44dd2376cec19eca8629354a312967959505d486bb4e0f3dde0ccc8228a0",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Fine curls remain visible against checker/black/white; deeper crop shows partially transparent strands. No exact hair recovery claim."
       },
       {
         "id": "02_male_presenter",
-        "file": "qa/motion_encoded/02_male_presenter_motion_encoded.jpg",
-        "sha256": "941619cf6ce55a7d2e902c7653f21bef247c94c4d8adc88d487eeadf1f7d915c",
+        "file": "qa/hold_encoded/02_male_presenter_final_encoded.jpg",
+        "sha256": "76b10b0d8975165748a6f63df52354a300edf784d5c12d8c99222b7156131f02",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Clothed male original, solid face/forehead and short hair silhouette are synchronized; no main Presenter title."
       },
       {
         "id": "03_dog",
-        "file": "qa/motion_encoded/03_dog_motion_encoded.jpg",
-        "sha256": "586c5bc2df861cfdfd81cf1819fe66cc9430b2f75374df86776983b763f5c268",
+        "file": "qa/hold_encoded/03_dog_final_encoded.jpg",
+        "sha256": "3a4e782af386eac0bcf57a506af055f272f2538734f95a6f658b75dad5a99eb4",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Moving ears, muzzle and soft fur remain visible; tight detail target follows a fixed native region while the dog moves."
       },
       {
         "id": "04_sheer_shawl",
-        "file": "qa/motion_encoded/04_sheer_shawl_motion_encoded.jpg",
-        "sha256": "12bd04e7ad53d041a19d45f27c434aecc88a87f5b6356eccb7edb2e30cb62c29",
+        "file": "qa/hold_encoded/04_sheer_shawl_final_encoded.jpg",
+        "sha256": "f7f91307ea5009b2dd133704b8b7c144b595bd49935a2b6539f4eadcf6c225e5",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Real translucent folds show the checker through the fabric; arm stays solid. Deeper crop isolates the overlap beneath the arm."
       },
       {
         "id": "05_furniture",
-        "file": "qa/motion_encoded/05_furniture_motion_encoded.jpg",
-        "sha256": "d5a7bca8d732df9ba0605106ffc3296d0f3b76435d66b82ce27ae58332e1006a",
+        "file": "qa/hold_encoded/05_furniture_final_encoded.jpg",
+        "sha256": "4e54fc89d47b4f15ab450d6d81810d8686578dce2743afac15bc28a21493d61c",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Moving sofa and throw boundary stays in the detail frame. Additional zoom is1.3x to preserve the edge. Existing physical tracking-marker residue remains a native limitation."
       },
       {
         "id": "06_office_pair",
-        "file": "qa/motion_encoded/06_office_pair_motion_encoded.jpg",
-        "sha256": "61d5dbedd7af74112ecd0ad662c2d7103cda079061bc8c706ccadae2f396099d",
+        "file": "qa/hold_encoded/06_office_pair_final_encoded.jpg",
+        "sha256": "6532c074cbbec41e78d544bc35358eacc5f1ceae591f6578689200649cf7b166",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Two clothed coworkers in wide view, then deeper male hair crop with black/white/checker comparison."
       },
       {
         "id": "07_mature_pair",
-        "file": "qa/motion_encoded/07_mature_pair_motion_encoded.jpg",
-        "sha256": "bf617ef0ed3d78e5cf22295335fb276ffa8e809ba1a5ef18ce207cee161addef",
+        "file": "qa/hold_encoded/07_mature_pair_final_encoded.jpg",
+        "sha256": "31f234383b45dca3309dd6e2a73a42e4564d3f0e9231aeac920d1879e74ce756",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Pair in wide view, then gray hair/profile edges in the detail comparison. Fine hair is soft, consistent with source/matte."
       },
       {
         "id": "08_male_prop",
-        "file": "qa/motion_encoded/08_male_prop_motion_encoded.jpg",
-        "sha256": "58863fd12119861c046b8174ae557079e6afc07361db44ade6359a50ad4c0dff",
+        "file": "qa/hold_encoded/08_male_prop_final_encoded.jpg",
+        "sha256": "6765d773325229405a01303e29ff0d15912d0c8fa58820a3f47b1ec8b4a4ff0e",
         "output_indices_seen": [
           0,
-          26,
-          50,
-          78,
-          110,
-          164,
-          194,
-          284,
-          359
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
         ],
-        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+        "findings": "Man holding blue bin in wide view, then hand/arm/bin boundary in detail. Interior between arms/background is removed."
+      }
+    ],
+    "full1080_evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/hold_encoded/01_hair_glasses_frame509.png",
+        "sha256": "60d4b8bd1ca99ff4cf5cca1647e2ed61fab0febaf49266e77e81c0d5323cb06f",
+        "output_index": 509,
+        "dimensions": [
+          1080,
+          1350
+        ],
+        "findings": "Main directly opened this actual encoded full1080 frame in addition to all eight contacts."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/hold_encoded/04_sheer_shawl_frame509.png",
+        "sha256": "f3b1954594749088eff45b0802e77d21a63d7b6d2c5336019815c2fefdfbeefc",
+        "output_index": 509,
+        "dimensions": [
+          1080,
+          1350
+        ],
+        "findings": "Main directly opened this actual encoded full1080 frame in addition to all eight contacts."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/hold_encoded/05_furniture_frame509.png",
+        "sha256": "067568a07cf37961f6be0269f4d93007a62d79711e1e96bf600da33a6eb8c44d",
+        "output_index": 509,
+        "dimensions": [
+          1080,
+          1350
+        ],
+        "findings": "Main directly opened this actual encoded full1080 frame in addition to all eight contacts."
       }
     ],
     "findings": [
-      "No source ROI outlines or lower footer text in reviewed final frames.",
-      "Labels use opaque white text-width tags and black glyphs.",
-      "Continuous matched viewport zoom and repeated vertical line wipes show the requested comparisons.",
-      "Furniture physical marker residue remains; other native ROI caveats are retained in the case findings."
+      "Top case headings, including Presenter, are absent; only BEFORE/AFTER/ALPHA opaque white tags with black text remain inside the two panels.",
+      "No ROI guides or lower captions in reviewed final frames.",
+      "Technical runtime ledgers verify matched smooth two-stage zoom, six15-frame wipes, four30-frame comparison dwells and90/120-frame checker holds.",
+      "Source clock continues at original speed, repeated4.25times per17-second case; camera and wipe hold, not a frozen source frame.",
+      "Digital cropping enlarges existing pixels;1080 canvas and CRF10 encode do not restore native detail. Existing matte caveats retained."
     ],
-    "original_encoded_audit_sha256": "d19b01ab846ccf1c684bceb24e3ebd38eb615f03b8136fcec7940ed57ccb8edf"
+    "original_encoded_audit_sha256": "85553b0a82e653c2f814c58f5baaed24b90060243f7871a9252bfdb6ccba5f4d"
   },
   "technical_job_ids": [
     "bd8258a4b3f3e46dd506",
@@ -507,5 +543,160 @@
     "original_encoded_audit_sha256": "da7848b40cb154f5305224b8226b433b0a3567ba7e36be72b6a15706e356ad33"
   },
   "motion_render_job": "ebc6b3a1e53350b06545",
-  "motion_audit_job": "1e21f2e37a1b6b43afc6"
+  "motion_audit_job": "1e21f2e37a1b6b43afc6",
+  "motion_v2_visual_review": {
+    "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
+    "revision": "motion_v2",
+    "reviewed_utc": "2026-10-28T11:38:56.772242+00:00",
+    "reviewer": "Main agent directly opened all eight final decoded motion contact sheets",
+    "scope": "72 selected decoded frames plus prior native/consecutive matte review; not an every-frame visual inspection.",
+    "evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/motion_encoded/01_hair_glasses_motion_encoded.jpg",
+        "sha256": "4280c2813867b4e7d83cd8302773e70a141f7ee8b4ed417f7858c498a6f087f5",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "02_male_presenter",
+        "file": "qa/motion_encoded/02_male_presenter_motion_encoded.jpg",
+        "sha256": "941619cf6ce55a7d2e902c7653f21bef247c94c4d8adc88d487eeadf1f7d915c",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "03_dog",
+        "file": "qa/motion_encoded/03_dog_motion_encoded.jpg",
+        "sha256": "586c5bc2df861cfdfd81cf1819fe66cc9430b2f75374df86776983b763f5c268",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/motion_encoded/04_sheer_shawl_motion_encoded.jpg",
+        "sha256": "12bd04e7ad53d041a19d45f27c434aecc88a87f5b6356eccb7edb2e30cb62c29",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/motion_encoded/05_furniture_motion_encoded.jpg",
+        "sha256": "d5a7bca8d732df9ba0605106ffc3296d0f3b76435d66b82ce27ae58332e1006a",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "06_office_pair",
+        "file": "qa/motion_encoded/06_office_pair_motion_encoded.jpg",
+        "sha256": "61d5dbedd7af74112ecd0ad662c2d7103cda079061bc8c706ccadae2f396099d",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "07_mature_pair",
+        "file": "qa/motion_encoded/07_mature_pair_motion_encoded.jpg",
+        "sha256": "bf617ef0ed3d78e5cf22295335fb276ffa8e809ba1a5ef18ce207cee161addef",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "08_male_prop",
+        "file": "qa/motion_encoded/08_male_prop_motion_encoded.jpg",
+        "sha256": "58863fd12119861c046b8174ae557079e6afc07361db44ade6359a50ad4c0dff",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      }
+    ],
+    "findings": [
+      "No source ROI outlines or lower footer text in reviewed final frames.",
+      "Labels use opaque white text-width tags and black glyphs.",
+      "Continuous matched viewport zoom and repeated vertical line wipes show the requested comparisons.",
+      "Furniture physical marker residue remains; other native ROI caveats are retained in the case findings."
+    ],
+    "original_encoded_audit_sha256": "d19b01ab846ccf1c684bceb24e3ebd38eb615f03b8136fcec7940ed57ccb8edf"
+  },
+  "final_render_original_job": "2b9695ecbe1c712f7e6d (worker lost; original state preserved)",
+  "final_render_supervisor_job": "3e5396e27984f4cbcc81",
+  "final_encoded_audit_job": "a23a5de16485405db01a"
 }

@@ -10,4 +10,10 @@ reel_manifest.json -text
 reel_motion_manifest.json -text
 src/render_reels.py -text
 src/render_motion_reels.py -text
+reel_hold_manifest.json -text
+src/render_hold_reels.py -text
+reel_pause_manifest.json -text
+src/render_pause_reels.py -text
+reel_final_manifest.json -text
+src/render_final_reels.py -text
 

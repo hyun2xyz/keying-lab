@@ -1,0 +1,124 @@
+{
+  "status": "FULL_DECODED_AND_VISUALLY_REVIEWED_SAMPLES",
+  "recording_stopped": true,
+  "session_index": 0,
+  "session_role": "Actual editorial preparation and intermediate pilot logs with existing matte reference playback. User stopped OBS before final no-title1080HQ rendering/review; those later stages are not covered.",
+  "raw_name": "2026-10-28 20-59-35.mkv",
+  "raw_bytes": 281727112,
+  "raw_sha256": "e911b5d0bffaee25ce12eb51a571a14486c000e38b3a4d39b9da846c2e58a4eb",
+  "raw_full_decode": {
+    "1": {
+      "decoded_frames_or_audio_packets": 106445,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 2270.8051666666665,
+      "largest_pts_gap_seconds": 0.021333333333333333,
+      "time_base": "1/48000"
+    },
+    "0": {
+      "decoded_frames_or_audio_packets": 68126,
+      "first_pts_seconds": 0.021,
+      "last_pts_seconds": 2270.888,
+      "largest_pts_gap_seconds": 0.067,
+      "time_base": "1/1000"
+    }
+  },
+  "raw_publicly_uploaded": false,
+  "raw_framehash_sha256": "fa09f107fc4cf80de8a47d88afdb3e7b7c22a359823733fa5fe8950194fef4f1",
+  "framehash_algorithm": "CRC32 per decoded frame for timestamp/evidence logging; whole movie and evidence files are bound by SHA256.",
+  "leading_initialization_trim_seconds": 0.5,
+  "events": [
+    {
+      "action": "stop",
+      "utc": "2026-10-28T12:37:26.781413+00:00",
+      "note": "User requested OBS recording stop. Editing/intermediate pilots captured; final no-title1080HQ render/review will continue in background without restarting OBS."
+    }
+  ],
+  "public_file": "recordings/process_hold_revision.mp4",
+  "public_bytes": 172073458,
+  "public_sha256": "c3777dbdfc3f620762491ebcedb02bab58141d463354e3c1b4d8fa5f86236292",
+  "public_duration_seconds": 2270.4,
+  "public_full_decode": {
+    "0": {
+      "decoded_frames_or_audio_packets": 68112,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 2270.366666666667,
+      "largest_pts_gap_seconds": 0.03333333333333333,
+      "time_base": "1/30"
+    }
+  },
+  "public_framehash_sha256": "ed279fc9fd8bad3cfa1d9135b4cc69272b02838ee799bf3a9ffe95ea0caad570",
+  "decoded_public_evidence": [
+    {
+      "edited_frame": 0,
+      "file": "qa/hold_process/decoded_public/001.png",
+      "sha256": "191c3b7db46a919211401e5b49407ab6f7ca3cb1fec5a751f9df0369a7a79c6c"
+    },
+    {
+      "edited_frame": 21830,
+      "file": "qa/hold_process/decoded_public/002.png",
+      "sha256": "d26e88745a901b7ace344f5cefdf93d49f1da7287bf157cd0af44a4db3c9c76f"
+    },
+    {
+      "edited_frame": 25446,
+      "file": "qa/hold_process/decoded_public/003.png",
+      "sha256": "3373f855f7df19036b5b5b6c5ee4677928c344f147f93b6e98617168b20867b5"
+    },
+    {
+      "edited_frame": 37948,
+      "file": "qa/hold_process/decoded_public/004.png",
+      "sha256": "e45dce38be210b793f36723436d08185d82346b7b2c627c9422e903ec85ba2c0"
+    },
+    {
+      "edited_frame": 54264,
+      "file": "qa/hold_process/decoded_public/005.png",
+      "sha256": "891c208ddd3cbaf9e943bd89817c355fc54433f76519e4a5134c7335f49e6b66"
+    },
+    {
+      "edited_frame": 68111,
+      "file": "qa/hold_process/decoded_public/006.png",
+      "sha256": "ca1849917de8e8a709b7982fb533b6f91473fc2209bffbc962f1f7e121f6899f"
+    }
+  ],
+  "contacts": [
+    {
+      "file": "qa/hold_process/decoded_public_contact_page_01.jpg",
+      "sha256": "efd0f9c810ee7553ba54db554814817652f0f32154025bea2461b64bdbf11da2"
+    }
+  ],
+  "approximate_capture_anchors": [
+    {
+      "label": "actual_hold_detail_setup",
+      "edited_approx_frame": 21830,
+      "source_screenshot_sha256": "e96082e234141e1098830e14ea633fd27a05a9c27c32f2cd5fec02500270d7dc"
+    },
+    {
+      "label": "actual_hold_pilot_encode",
+      "edited_approx_frame": 25446,
+      "source_screenshot_sha256": "eca373f34222fe27a78a437ba0a8b79c3e74436f5903586afae95ada022d5d12"
+    },
+    {
+      "label": "cadence_feedback_revision",
+      "edited_approx_frame": 37948,
+      "source_screenshot_sha256": "ca20d23029ad5bdfccffe5f7c645d6c65b83be982af85446dbf61d5658789f9b"
+    },
+    {
+      "label": "final_header_quality_revision",
+      "edited_approx_frame": 54264,
+      "source_screenshot_sha256": "dd75e4ad1813eae159c00838319eca772d0fee45122d72478b9687c0bf78c4cc"
+    }
+  ],
+  "silent_edit": true,
+  "limit": "Actual screen capture with0.5-second initialization trim, not an uninterrupted/every-frame visual inspection claim. Screenshot anchors are approximate within display/capture latency.",
+  "main_visual_review": {
+    "reviewed_utc": "2026-10-28T13:06:46.596055+00:00",
+    "reviewer": "Main agent directly opened decoded_public_contact_page_01.jpg",
+    "scope": "Six actual decoded samples at frames0,21830,25446,37948,54264,68111; not every-frame visual review.",
+    "findings": [
+      "Accepted clothed male original and existing checker composite are visible in all six samples.",
+      "Intermediate pilot log is labeled; final-header/quality revision message describes subsequent render.",
+      "No rejected dance, unrelated application or recording error dialog in the inspected samples.",
+      "Capture ends before final1080HQ rendering and its final encoded visual QA."
+    ],
+    "contact_sha256": "efd0f9c810ee7553ba54db554814817652f0f32154025bea2461b64bdbf11da2"
+  }
+}

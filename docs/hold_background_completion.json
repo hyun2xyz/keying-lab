@@ -1,0 +1,78 @@
+{
+  "status": "EXISTING_RENDER_COMPLETED_AND_RECEIPT_OUTPUT_HASHES_VERIFIED_REQUIRES_VISUAL_QA",
+  "utc": "2026-10-28T13:00:37.484784+00:00",
+  "original_job": "2b9695ecbe1c712f7e6d",
+  "original_worker_lost": true,
+  "original_worker_exit_code": "Scheduler reported0xC000013A; renderer child exit code unavailable",
+  "existing_renderer_observed_to_end": {
+    "original_job": "2b9695ecbe1c712f7e6d",
+    "renderer_pid": 54800,
+    "renderer_create_time": 1793191020.1899185
+  },
+  "rerender_performed": false,
+  "original_job_state_modified": false,
+  "frozen_inputs_sha256_unchanged": {
+    "outputs/keying-real5/src/render_final_reels.py": "da93cf8d1574350fcf0a64b71d080727687a2c6d553c05d3a94717ed2c9e09db",
+    "outputs/keying-real5/reel_final_manifest.json": "f2facb0610176654350a5c659303b6a74de7535af5ffc1e81c21fdc15d9b1d02",
+    "outputs/keying-real5/reels/final_v5/final_control.json": "6df1fdff6d6c5b2c54ad5a0259f67d14d71aa41289e9afc648fe212ca0507acc",
+    "outputs/keying-real5/reels/final_v1/render_receipt.json": "ca995360f0e129c83b1a07bfc52650c5f99f05ef9c56aafbd97835c08a346914"
+  },
+  "receipt_sha256": "d78c8471011203f5d613e4611fd5dd630f13e7966c7eee6b4294969a3781a5e1",
+  "videos": [
+    {
+      "name": "01_hair_glasses_reel.mp4",
+      "bytes": 67742823,
+      "sha256": "221875672e1b74c85bdf00527a54ec8079876bab8ef03b058cc52d5d32752b18",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "02_male_presenter_reel.mp4",
+      "bytes": 28144644,
+      "sha256": "8d0eedfd44f937b94ffa7569def6ed9f0402bab80b10e8492a99060948007fcf",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "03_dog_reel.mp4",
+      "bytes": 19783461,
+      "sha256": "75b706228f4d39557ca524143af5a9ccaf09d90974c8d590e673ff3885ba5ffd",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "04_sheer_shawl_reel.mp4",
+      "bytes": 47693485,
+      "sha256": "ccd6324c8b40ae5337eb21c2a20853d77418acda14a4c8d64d7d78924bf75333",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "05_furniture_reel.mp4",
+      "bytes": 36109530,
+      "sha256": "82bd6476f4789ffa6b146bd7dc4e9ab0724323f18d72096c2347375b5c5867a1",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "06_office_pair_reel.mp4",
+      "bytes": 29206101,
+      "sha256": "dd999186253110a9c531fbdfb8304375d24765aae8c68495e72934f91b8ca347",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "07_mature_pair_reel.mp4",
+      "bytes": 36543757,
+      "sha256": "a4df73d7a2ce5b7de5564fdd9400d47e3318bb65a312217347ab23b6a2c4b4dd",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "08_male_prop_reel.mp4",
+      "bytes": 31614724,
+      "sha256": "0fcec1aedf22c848a8981dac39ee6964a9a7fb999715a9dfaed93b5d7200c109",
+      "full_decode_frames": 510
+    },
+    {
+      "name": "keying_breakdown_real8_1080x1350.mp4",
+      "bytes": 296831021,
+      "sha256": "7ceeb3d8f7091237ab904fa6523efd80e7f10b755cdfe7eea447b1e98b0af574",
+      "full_decode_frames": 4080
+    }
+  ],
+  "visual_review": "NOT_REVIEWED"
+}
