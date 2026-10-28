@@ -1,0 +1,40 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Keying Lab · 실사8종 검수</title>
+<style>body{background:#14191e;color:#edf1f4;font:16px/1.65 system-ui;max-width:1120px;margin:40px auto;padding:0 20px}a{color:#91dfc3}article{margin-top:48px;border-top:1px solid #48515a;padding-top:16px}img{width:100%;height:auto}video{width:min(100%,540px);display:block;margin:18px 0}summary{cursor:pointer}</style>
+<h1>CorridorKey 2.0 · 실제 촬영 소스 8종</h1>
+<p>곱슬머리·안경, 남성 발표자, 강아지 털, 반투명 숄, 가구 표면, 사무실2인, 중년2인, 소품을 든 남성. 서로 다른 소재의 실제 촬영본을 공식 무료 이용 조건에 따라 다운로드해 처리했습니다. 원본·결과 모두 출처 조건을 따르며 CC0로 재허가하지 않습니다.</p>
+<p>완성 릴스는1080×1350/30fps, 위 원본·아래 실제 결과입니다. 풀샷에서 같은 위치로 부드럽게 확대하고, 세로 와이프로 원본·체커·알파·검정/흰 배경을 비교합니다. 네모 표시와 하단 자막 없이 흰 박스·검정 글씨 라벨만 사용합니다. 사례당4초 촬영 구간을3회 반복해12초로 구성했고 합본96초입니다. 음악·내레이션 없음.</p>
+<video controls preload="metadata" src="reels/motion_v2/keying_breakdown_real8_1080x1350.mp4"></video>
+<p><a href="https://github.com/hyun2xyz/keying-lab">공개 GitHub</a> · <a href="https://github.com/hyun2xyz/keying-lab/releases/tag/v1.0.0">완성 릴스·OBS 편집본·검수 패키지</a> · <a href="qa/manual_review.json">직접 검수 기록</a> · <a href="qa/metrics.csv">처리 기록 CSV</a></p>
+<p>실사 정답 알파는 제공되지 않아 정확도 점수를 만들지 않았습니다. 작은 배경 영역의 알파와 처리시간은 진단값입니다. 원본960×720의 비정방 픽셀 숄은1280×720 정방 픽셀로 바로잡았고, 영상25/30/60fps는 실제 속도를 유지해24fps로 프레임 선택했습니다.</p>
+<p>OBS는 실제 로컬 작업 모니터를 녹화했습니다. 추론 중 로그와 완료 후 결과 재생을 구별해 표시했습니다. <a href="recordings/process_recording.mp4">추론·초기 편집 과정</a>은 제외 요청을 받은 이전 두 번째 사례 구간을 잘라낸 무음 편집본이며, 소스 선택을 위한 의도적인 일시정지가 있습니다. <a href="recordings/process_motion_revision.mp4">줌·와이프 수정 과정</a>도 별도 기록했습니다. <a href="docs/obs_recording_audit.json">초기 녹화 검증</a> · <a href="docs/obs_motion_audit.json">모션 수정 녹화 검증</a></p><article><h2>Curly hair and glasses</h2><p>(CC) Blender Foundation | mango.blender.org | CC BY 3.0. <a href="https://mango.blender.org/production/4-tb-original-4k-footage-available-as-cc-by/">공식 원본 다운로드</a></p>
+<p>1920×1012,96프레임@24fps / 모델 처리 156.1초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/01_hair_glasses_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/01_hair_glasses_roi_review.jpg"><img loading="lazy" src="qa/01_hair_glasses_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Male presenter / hair, beard and gestures</h2><p>Mixkit / video28287 / Stock Video Free License. <a href="https://mixkit.co/free-stock-video/man-talking-head-on-on-a-chroma-background-28287/">공식 원본 다운로드</a></p>
+<p>1920×1080,96프레임@24fps / 모델 처리 134.7초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/02_male_presenter_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/02_male_presenter_roi_review.jpg"><img loading="lazy" src="qa/02_male_presenter_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Dog / fine fur and shadow</h2><p>GreenCardShow / Pixabay / Pixabay Content License. <a href="https://pixabay.com/videos/chromakey-dog-sitting-puppy-11342/">공식 원본 다운로드</a></p>
+<p>2048×1080,96프레임@24fps / 모델 처리 132.2초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/03_dog_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/03_dog_roi_review.jpg"><img loading="lazy" src="qa/03_dog_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Sheer shawl / real transmission</h2><p>Hollywood Camera Work / practice footage / results permitted. <a href="https://www.hollywoodcamerawork.com/green-screen-plates.html">공식 원본 다운로드</a></p>
+<p>1280×720,96프레임@24fps / 모델 처리 74.9초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/04_sheer_shawl_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/04_sheer_shawl_roi_review.jpg"><img loading="lazy" src="qa/04_sheer_shawl_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Furniture / fabric texture and hard edges</h2><p>GreenCardShow / Pixabay / Pixabay Content License. <a href="https://pixabay.com/videos/chromakey-sofa-old-ruined-used-11292/">공식 원본 다운로드</a></p>
+<p>1920×1080,96프레임@24fps / 모델 처리 139.3초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/05_furniture_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/05_furniture_roi_review_v2.jpg"><img loading="lazy" src="qa/05_furniture_roi_review_v2.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Two coworkers / hair and overlapping subjects</h2><p>Mixkit / video42638 / Stock Video Free License. <a href="https://mixkit.co/free-stock-video/entrepreneurs-working-in-the-office-chroma-background-42638/">공식 원본 다운로드</a></p>
+<p>1920×1080,96프레임@24fps / 모델 처리 141.3초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/06_office_pair_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/06_office_pair_roi_review.jpg"><img loading="lazy" src="qa/06_office_pair_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Mature pair / two silhouettes</h2><p>Mixkit / video100760 / Stock Video Free License. <a href="https://mixkit.co/free-stock-video/mature-couple-sharing-a-warm-moment-100760/">공식 원본 다운로드</a></p>
+<p>1080×1920,96프레임@24fps / 모델 처리 156.0초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/07_mature_pair_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/07_mature_pair_roi_review.jpg"><img loading="lazy" src="qa/07_mature_pair_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article>
+<article><h2>Clothed man / hands and recycling bin</h2><p>Lara Jameson / Pexels / Pexels License. <a href="https://www.pexels.com/video/a-man-holding-a-recycling-bin-in-front-of-a-green-screen-9323252/">공식 원본 다운로드</a></p>
+<p>1080×1920,96프레임@24fps / 모델 처리 142.5초. GT 없음.</p>
+<video controls muted loop preload="none" src="reels/motion_v2/08_male_prop_reel.mp4"></video>
+<details><summary>원본 ROI·알파·체커·검정·흰색과 연속 프레임 검수</summary><a href="qa/08_male_prop_roi_review.jpg"><img loading="lazy" src="qa/08_male_prop_roi_review.jpg" alt="Real source alpha and three composite backgrounds"></a></details></article></html>

@@ -1,0 +1,33 @@
+= Tears of Steel original footage =
+
+This directory contains original live action footage for
+the short film "Tears of Steel". The frames are individual
+image files in OpenEXR format 16-bit 4096x2160, converted
+from camera raw.  Playback is at 24 frames per second.
+There are also 1920x1012 exr versions in the 'linear_hd'
+directories and occassional png or jpeg derivatives.
+
+The short film "Tears of Steel", code-named "mango" during
+development, was a Blender Open Movie Project. It developed
+an open vfx pipeline for compositing computer generated elements
+with live action video. It was originally released 2012 September 26.
+
+See http://mango.blender.org/ for more information.
+
+
+All of the files may be reused and redistributed under the
+Creative Commons Attribution 3.0 license.
+http://creativecommons.org/licenses/by/3.0/
+
+The required attribution is:
+
+  (CC) Blender Foundation | mango.blender.org
+
+Excluded from the Creative Commons license is: all logos
+(including Blender logo, Mango logo, Creative Commons logo,
+sponsor logos) and associated trademarks.
+
+The actors retain their Personal Image (Portrait) and Privacy Rights.
+
+For questions about licensing rights of Tears of Steel
+you can email foundation at blender.org.

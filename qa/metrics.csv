@@ -1,0 +1,9 @@
+﻿id,title,width,height,frames,fps,engine_seconds,processing_fps,screen_probe_mean_alpha,peak_torch_allocated_GiB
+01_hair_glasses,Curly hair and glasses,1920,1012,96,24,156.117,0.615,0.0,7.243
+02_male_presenter,"Male presenter / hair, beard and gestures",1920,1080,96,24,134.711,0.713,0.0,7.693
+03_dog,Dog / fine fur and shadow,2048,1080,96,24,132.191,0.726,0.0,7.844
+04_sheer_shawl,Sheer shawl / real transmission,1280,720,96,24,74.929,1.281,0.02859284867930656,4.538
+05_furniture,Furniture / fabric texture and hard edges,1920,1080,96,24,139.285,0.689,3.9638040289317424e-05,7.693
+06_office_pair,Two coworkers / hair and overlapping subjects,1920,1080,96,24,141.293,0.679,0.0,7.693
+07_mature_pair,Mature pair / two silhouettes,1080,1920,96,24,155.973,0.615,0.0,7.693
+08_male_prop,Clothed man / hands and recycling bin,1080,1920,96,24,142.462,0.674,0.0,7.693

@@ -1,0 +1,13 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.jpg binary
+*.png binary
+dataset_manifest.json -text
+reel_manifest.json -text
+reel_motion_manifest.json -text
+src/render_reels.py -text
+src/render_motion_reels.py -text
+

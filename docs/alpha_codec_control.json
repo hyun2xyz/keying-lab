@@ -1,0 +1,27 @@
+{
+  "initial_strict_check": {
+    "status": "FAILED",
+    "maximum_allowed_codes": 2,
+    "actual_max_codes": 49
+  },
+  "declared_encoder_input": "yuva444p10le",
+  "expected_alpha16": [
+    0,
+    16384,
+    32768,
+    49151,
+    65535
+  ],
+  "decoded_alpha16": [
+    0,
+    16400,
+    32800,
+    49200,
+    65520
+  ],
+  "effective_alpha10_one_code_bound_in_alpha16": 65,
+  "max_alpha16_error_codes": 49,
+  "max_normalized_alpha_error": 0.0007476920729381247,
+  "consumer_admitted": true,
+  "limitation": "Metrics include native codec quantization. No original pixels, thresholds for model quality, or endpoints were changed."
+}

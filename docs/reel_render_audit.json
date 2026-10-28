@@ -1,0 +1,677 @@
+{
+  "status": "TECHNICALLY_VERIFIED_ENCODED_CONTACTS_REQUIRE_DIRECT_REVIEW",
+  "manifest_sha256": "69a1dd7f489eec81721dc48ddc51e482cd157443f9a8e622fdabb778bfb72714",
+  "renderer_sha256": "e36dc7ece53990512eece794e09f49a87a68a11c04fb915f8d88645a222b9169",
+  "all_input_identities_equal_between_preview_and_render": true,
+  "all9_mp4_hashes_match_full_decode_and_clock_receipts": true,
+  "full_decode_proof_reused_from_renderer": true,
+  "ground_truth_available": false,
+  "excluded_case": "02_dance",
+  "combined_frames": 2880,
+  "combined_seconds": 96,
+  "selected_output_indices": [
+    0,
+    120,
+    240,
+    300
+  ],
+  "selected_source_indices": [
+    0,
+    0,
+    0,
+    48
+  ],
+  "rgb_residual_note": "Descriptive H264/YUV420p RGB residuals against exact-clock direct renderer; not GT/matte error or exact pixel equality.",
+  "cases": [
+    {
+      "id": "01_hair_glasses",
+      "credit": "(CC) Blender Foundation | mango.blender.org | CC BY 3.0",
+      "roi": [
+        840,
+        70,
+        640,
+        360
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\01_hair_glasses_encoded_stages.jpg",
+      "contact_sha256": "a591a6efc8dc290e5047650085e9efe916fdf24b12b0e63611a2417e0282780d",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\01_hair_glasses_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.9783998628257888,
+          "p95": 6.0,
+          "p99": 10.0,
+          "max": 78
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.6435827617741199,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 61
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.2953916323731138,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 66
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.769586191129401,
+          "p95": 6.0,
+          "p99": 9.0,
+          "max": 65
+        }
+      ]
+    },
+    {
+      "id": "02_male_presenter",
+      "credit": "Mixkit / video28287 / Stock Video Free License",
+      "roi": [
+        560,
+        30,
+        880,
+        495
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\02_male_presenter_encoded_stages.jpg",
+      "contact_sha256": "e011cbe5a4a4d81e55b729748bd5e1b7b4ad16ec3c1f3e0d8b69b4154e94183c",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\02_male_presenter_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.3016796982167353,
+          "p95": 3.0,
+          "p99": 8.0,
+          "max": 108
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.340016003657979,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 96
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.9300523548239598,
+          "p95": 3.0,
+          "p99": 7.0,
+          "max": 96
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.337656835848194,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 94
+        }
+      ]
+    },
+    {
+      "id": "03_dog",
+      "credit": "GreenCardShow / Pixabay / Pixabay Content License",
+      "roi": [
+        730,
+        250,
+        640,
+        360
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\03_dog_encoded_stages.jpg",
+      "contact_sha256": "0eebdd7494a02f476f8ed5d611924667afad5bdc342258a200876c12314c1d3e",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\03_dog_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.049039780521262,
+          "p95": 3.0,
+          "p99": 5.0,
+          "max": 65
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.1305948788294466,
+          "p95": 3.0,
+          "p99": 5.0,
+          "max": 60
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.7965160036579789,
+          "p95": 3.0,
+          "p99": 5.0,
+          "max": 67
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.165051897576589,
+          "p95": 3.0,
+          "p99": 5.0,
+          "max": 65
+        }
+      ]
+    },
+    {
+      "id": "04_sheer_shawl",
+      "credit": "Hollywood Camera Work / practice footage / results permitted",
+      "roi": [
+        120,
+        230,
+        640,
+        360
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\04_sheer_shawl_encoded_stages.jpg",
+      "contact_sha256": "571c630acc27ca8f80f5d98a4b56c14d29489ec48ace5f1c7eb23f89397a8d62",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\04_sheer_shawl_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.8170196616369456,
+          "p95": 5.0,
+          "p99": 10.0,
+          "max": 89
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.6849545038866027,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 65
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.1685962505715592,
+          "p95": 4.0,
+          "p99": 7.0,
+          "max": 65
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.665269090077732,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 83
+        }
+      ]
+    },
+    {
+      "id": "05_furniture",
+      "credit": "GreenCardShow / Pixabay / Pixabay Content License",
+      "roi": [
+        800,
+        240,
+        1040,
+        585
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\05_furniture_encoded_stages.jpg",
+      "contact_sha256": "a956f455995943ba075ca184c46f5f4c455fcedfe7369a545446307353b4d2fb",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\05_furniture_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.3453157293095566,
+          "p95": 4.0,
+          "p99": 7.0,
+          "max": 70
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.240400548696845,
+          "p95": 4.0,
+          "p99": 6.0,
+          "max": 63
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.854838134430727,
+          "p95": 3.0,
+          "p99": 5.0,
+          "max": 66
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.4739067215363513,
+          "p95": 4.0,
+          "p99": 7.0,
+          "max": 66
+        }
+      ]
+    },
+    {
+      "id": "06_office_pair",
+      "credit": "Mixkit / video42638 / Stock Video Free License",
+      "roi": [
+        300,
+        100,
+        1200,
+        675
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\06_office_pair_encoded_stages.jpg",
+      "contact_sha256": "93ec6e186f8df0822bb1bb6b4ceacaa4367992af4061c34c5498dcafa1e91c32",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\06_office_pair_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.374248056698674,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 65
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.2804865112025605,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 60
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.8030006858710562,
+          "p95": 3.0,
+          "p99": 6.009999999776483,
+          "max": 66
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.3030128029263832,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 66
+        }
+      ]
+    },
+    {
+      "id": "07_mature_pair",
+      "credit": "Mixkit / video100760 / Stock Video Free License",
+      "roi": [
+        50,
+        700,
+        960,
+        540
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\07_mature_pair_encoded_stages.jpg",
+      "contact_sha256": "54d22ea0504a53216314fff957faee9759c06f16a8fc818f7602f7c5224cd01d",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\07_mature_pair_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.1853639689071789,
+          "p95": 3.0,
+          "p99": 6.0,
+          "max": 70
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.4098299039780522,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 65
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.9720594421582076,
+          "p95": 4.0,
+          "p99": 7.0,
+          "max": 66
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.4699202103337905,
+          "p95": 5.0,
+          "p99": 8.0,
+          "max": 67
+        }
+      ]
+    },
+    {
+      "id": "08_male_prop",
+      "credit": "Lara Jameson / Pexels / Pexels License",
+      "roi": [
+        70,
+        1120,
+        960,
+        540
+      ],
+      "encoded_contact": ".\\reels\\final_v1\\encoded_review\\08_male_prop_encoded_stages.jpg",
+      "contact_sha256": "f84d0cb92009001c4f568db266b54eb1fbfccc369745b04fd426765903250ef0",
+      "decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-hide_banner",
+        "-v",
+        "error",
+        "-i",
+        ".\\reels\\final_v1\\08_male_prop_reel.mp4",
+        "-vf",
+        "select=eq(n\\,0)+eq(n\\,120)+eq(n\\,240)+eq(n\\,300),scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=rgb24",
+        "-fps_mode",
+        "passthrough",
+        "-f",
+        "rawvideo",
+        "pipe:1"
+      ],
+      "rgb_residuals": [
+        {
+          "output_index": 0,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.2243006401463192,
+          "p95": 3.0,
+          "p99": 7.0,
+          "max": 73
+        },
+        {
+          "output_index": 120,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 1.5184279835390946,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 63
+        },
+        {
+          "output_index": 240,
+          "source_index": 0,
+          "mean_absolute_rgb_code_error": 0.9169556470050297,
+          "p95": 3.0,
+          "p99": 6.0,
+          "max": 65
+        },
+        {
+          "output_index": 300,
+          "source_index": 48,
+          "mean_absolute_rgb_code_error": 1.542411065386374,
+          "p95": 4.0,
+          "p99": 8.0,
+          "max": 65
+        }
+      ]
+    }
+  ],
+  "main_visual_review": {
+    "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
+    "reviewed_utc": "2026-10-28T10:45:06.891140+00:00",
+    "reviewer": "Main agent, directly opened all eight encoded contact sheets",
+    "scope": "Four sampled encoded stages per case, plus separate native/consecutive review. Not an every-frame visual inspection.",
+    "evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/encoded_stages/01_hair_glasses_encoded_stages.jpg",
+        "sha256": "a591a6efc8dc290e5047650085e9efe916fdf24b12b0e63611a2417e0282780d",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "02_male_presenter",
+        "file": "qa/encoded_stages/02_male_presenter_encoded_stages.jpg",
+        "sha256": "e011cbe5a4a4d81e55b729748bd5e1b7b4ad16ec3c1f3e0d8b69b4154e94183c",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "03_dog",
+        "file": "qa/encoded_stages/03_dog_encoded_stages.jpg",
+        "sha256": "0eebdd7494a02f476f8ed5d611924667afad5bdc342258a200876c12314c1d3e",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/encoded_stages/04_sheer_shawl_encoded_stages.jpg",
+        "sha256": "571c630acc27ca8f80f5d98a4b56c14d29489ec48ace5f1c7eb23f89397a8d62",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/encoded_stages/05_furniture_encoded_stages.jpg",
+        "sha256": "a956f455995943ba075ca184c46f5f4c455fcedfe7369a545446307353b4d2fb",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "06_office_pair",
+        "file": "qa/encoded_stages/06_office_pair_encoded_stages.jpg",
+        "sha256": "93ec6e186f8df0822bb1bb6b4ceacaa4367992af4061c34c5498dcafa1e91c32",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "07_mature_pair",
+        "file": "qa/encoded_stages/07_mature_pair_encoded_stages.jpg",
+        "sha256": "54d22ea0504a53216314fff957faee9759c06f16a8fc818f7602f7c5224cd01d",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "08_male_prop",
+        "file": "qa/encoded_stages/08_male_prop_encoded_stages.jpg",
+        "sha256": "f84d0cb92009001c4f568db266b54eb1fbfccc369745b04fd426765903250ef0",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      }
+    ],
+    "original_encoded_audit_sha256": "da7848b40cb154f5305224b8226b433b0a3567ba7e36be72b6a15706e356ad33"
+  },
+  "original_audit_sha256": "da7848b40cb154f5305224b8226b433b0a3567ba7e36be72b6a15706e356ad33"
+}

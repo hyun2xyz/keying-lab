@@ -1,0 +1,511 @@
+{
+  "scope": "Actual model output at native dimensions; selected source/alpha/composites and adjacent46..50 frames. Not an every-frame visual inspection or a universal accuracy guarantee.",
+  "accepted_cases": 8,
+  "accepted_source_frames": 768,
+  "cases": [
+    {
+      "id": "01_hair_glasses",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/01_hair_glasses_roi_review.jpg",
+      "evidence_sha256": "c13f98208e2bee7379a7de916d434b81efff3f2adbb55e58c2f8701fb57f6f16",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Curly fine hair and glasses silhouette retained across sampled motion; soft edge detail visible on checker/black/white. No claim of exact fine-hair recovery without GT.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "02_male_presenter",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/02_male_presenter_roi_review.jpg",
+      "evidence_sha256": "e4793357b9bf727b3aec770e8b168b385f09c5aaf29a5fa9a375f92fe3082cc5",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Face, ears, beard and clothing remain solid in sampled alpha. Initial native review crop clips some head top at frame0; final reel uses documented wider ROI for whole hair/beard.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "03_dog",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/03_dog_roi_review.jpg",
+      "evidence_sha256": "aca83a58f7dc2a5c036166907ec83525d2139d1cf074c89f74f97a1a56429bad",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Ear motion, short fur and facial outline remain visible across samples. Feathered/soft boundary is retained; individual-fur completeness cannot be scored without GT.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "04_sheer_shawl",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/04_sheer_shawl_roi_review.jpg",
+      "evidence_sha256": "f86da16e651a9dfcc32b73f933e87cc27553670d05bb88a50d4eedb21526657a",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Checker is visible through the real sheer fabric; folds have changing alpha and moving edges. Background probe is a local diagnostic only and may include dark screen/spill or occlusion; no accuracy score.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "05_furniture",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/05_furniture_roi_review_v2.jpg",
+      "evidence_sha256": "b68f16499c8efb5b3dee1349fd863e99aed446202342f166fa3b683f2e279abc",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Sofa and draped textile remain opaque; hard/soft edges preserved. A faint tracking-marker residue is visible in early samples on black. No manual marker removal. Wider reel ROI approved to include moving sofa/textile boundary.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "06_office_pair",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/06_office_pair_roi_review.jpg",
+      "evidence_sha256": "d32e922d0ac98f7665b04b3acd80bf857b41118445cdc8a2b569c8a7a73166f4",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Both heads and separate hair silhouettes retained with a clear gap. Review ROI crops parts of faces at some extremes; full-source view remains available. No invented whole-frame GT.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "07_mature_pair",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/07_mature_pair_roi_review.jpg",
+      "evidence_sha256": "08e03f926dff208554c050e4e3cf1143e0d24b58def7d07bc4f2aa9fa79e54ed",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Two profiles, gray hair and loose hair preserved in sampled consecutive frames. No obvious sampled one-frame separation failure; this is not a numerical flicker verdict.",
+      "ground_truth_available": false
+    },
+    {
+      "id": "08_male_prop",
+      "status": "VISUALLY_REVIEWED_SAMPLES",
+      "frames_seen": [
+        0,
+        24,
+        46,
+        47,
+        48,
+        49,
+        50,
+        72,
+        95
+      ],
+      "evidence": "qa/08_male_prop_roi_review.jpg",
+      "evidence_sha256": "6386de6368bc92def1b1eb0a43b7baefd718f1bd8321ca8aa29c461973d168ea",
+      "backgrounds": [
+        "gray checker",
+        "black",
+        "white"
+      ],
+      "findings": "Bin, fingers and white-shirt/arm boundaries remain solid; real gaps between arm and body are cut out. Portrait full view plus selected hand/bin ROI is intentional.",
+      "ground_truth_available": false
+    }
+  ],
+  "final_reel_visual_review": {
+    "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
+    "revision": "motion_v2",
+    "reviewed_utc": "2026-10-28T11:38:56.772242+00:00",
+    "reviewer": "Main agent directly opened all eight final decoded motion contact sheets",
+    "scope": "72 selected decoded frames plus prior native/consecutive matte review; not an every-frame visual inspection.",
+    "evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/motion_encoded/01_hair_glasses_motion_encoded.jpg",
+        "sha256": "4280c2813867b4e7d83cd8302773e70a141f7ee8b4ed417f7858c498a6f087f5",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "02_male_presenter",
+        "file": "qa/motion_encoded/02_male_presenter_motion_encoded.jpg",
+        "sha256": "941619cf6ce55a7d2e902c7653f21bef247c94c4d8adc88d487eeadf1f7d915c",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "03_dog",
+        "file": "qa/motion_encoded/03_dog_motion_encoded.jpg",
+        "sha256": "586c5bc2df861cfdfd81cf1819fe66cc9430b2f75374df86776983b763f5c268",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/motion_encoded/04_sheer_shawl_motion_encoded.jpg",
+        "sha256": "12bd04e7ad53d041a19d45f27c434aecc88a87f5b6356eccb7edb2e30cb62c29",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/motion_encoded/05_furniture_motion_encoded.jpg",
+        "sha256": "d5a7bca8d732df9ba0605106ffc3296d0f3b76435d66b82ce27ae58332e1006a",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "06_office_pair",
+        "file": "qa/motion_encoded/06_office_pair_motion_encoded.jpg",
+        "sha256": "61d5dbedd7af74112ecd0ad662c2d7103cda079061bc8c706ccadae2f396099d",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "07_mature_pair",
+        "file": "qa/motion_encoded/07_mature_pair_motion_encoded.jpg",
+        "sha256": "bf617ef0ed3d78e5cf22295335fb276ffa8e809ba1a5ef18ce207cee161addef",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      },
+      {
+        "id": "08_male_prop",
+        "file": "qa/motion_encoded/08_male_prop_motion_encoded.jpg",
+        "sha256": "58863fd12119861c046b8174ae557079e6afc07361db44ade6359a50ad4c0dff",
+        "output_indices_seen": [
+          0,
+          26,
+          50,
+          78,
+          110,
+          164,
+          194,
+          284,
+          359
+        ],
+        "findings": "Expected real source above and synced viewport below, before/after/alpha and checker/black/white wipes; white tags and black glyphs, no ROI guide or footer text. Selected decoded samples directly opened."
+      }
+    ],
+    "findings": [
+      "No source ROI outlines or lower footer text in reviewed final frames.",
+      "Labels use opaque white text-width tags and black glyphs.",
+      "Continuous matched viewport zoom and repeated vertical line wipes show the requested comparisons.",
+      "Furniture physical marker residue remains; other native ROI caveats are retained in the case findings."
+    ],
+    "original_encoded_audit_sha256": "d19b01ab846ccf1c684bceb24e3ebd38eb615f03b8136fcec7940ed57ccb8edf"
+  },
+  "technical_job_ids": [
+    "bd8258a4b3f3e46dd506",
+    "99332c17503148d3ce7b"
+  ],
+  "reel_job": "2268ea27fd70e54c99aa",
+  "first_presentation_visual_review": {
+    "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
+    "reviewed_utc": "2026-10-28T10:45:06.891140+00:00",
+    "reviewer": "Main agent, directly opened all eight encoded contact sheets",
+    "scope": "Four sampled encoded stages per case, plus separate native/consecutive review. Not an every-frame visual inspection.",
+    "evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/encoded_stages/01_hair_glasses_encoded_stages.jpg",
+        "sha256": "a591a6efc8dc290e5047650085e9efe916fdf24b12b0e63611a2417e0282780d",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "02_male_presenter",
+        "file": "qa/encoded_stages/02_male_presenter_encoded_stages.jpg",
+        "sha256": "e011cbe5a4a4d81e55b729748bd5e1b7b4ad16ec3c1f3e0d8b69b4154e94183c",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "03_dog",
+        "file": "qa/encoded_stages/03_dog_encoded_stages.jpg",
+        "sha256": "0eebdd7494a02f476f8ed5d611924667afad5bdc342258a200876c12314c1d3e",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/encoded_stages/04_sheer_shawl_encoded_stages.jpg",
+        "sha256": "571c630acc27ca8f80f5d98a4b56c14d29489ec48ace5f1c7eb23f89397a8d62",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/encoded_stages/05_furniture_encoded_stages.jpg",
+        "sha256": "a956f455995943ba075ca184c46f5f4c455fcedfe7369a545446307353b4d2fb",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "06_office_pair",
+        "file": "qa/encoded_stages/06_office_pair_encoded_stages.jpg",
+        "sha256": "93ec6e186f8df0822bb1bb6b4ceacaa4367992af4061c34c5498dcafa1e91c32",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "07_mature_pair",
+        "file": "qa/encoded_stages/07_mature_pair_encoded_stages.jpg",
+        "sha256": "54d22ea0504a53216314fff957faee9759c06f16a8fc818f7602f7c5224cd01d",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      },
+      {
+        "id": "08_male_prop",
+        "file": "qa/encoded_stages/08_male_prop_encoded_stages.jpg",
+        "sha256": "f84d0cb92009001c4f568db266b54eb1fbfccc369745b04fd426765903250ef0",
+        "output_indices_seen": [
+          0,
+          120,
+          240,
+          300
+        ],
+        "source_indices_seen": [
+          0,
+          0,
+          0,
+          48
+        ],
+        "findings": "Source above and actual result below; full view, ROI/checker, model alpha and ROI/checker displayed with per-case credit. Expected subject; no rejected dance sample."
+      }
+    ],
+    "original_encoded_audit_sha256": "da7848b40cb154f5305224b8226b433b0a3567ba7e36be72b6a15706e356ad33"
+  },
+  "motion_render_job": "ebc6b3a1e53350b06545",
+  "motion_audit_job": "1e21f2e37a1b6b43afc6"
+}

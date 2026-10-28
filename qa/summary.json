@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "id": "01_hair_glasses",
+      "title": "Curly hair and glasses",
+      "width": 1920,
+      "height": 1012,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 156.117,
+      "processing_fps": 0.615,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.243
+    },
+    {
+      "id": "02_male_presenter",
+      "title": "Male presenter / hair, beard and gestures",
+      "width": 1920,
+      "height": 1080,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 134.711,
+      "processing_fps": 0.713,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.693
+    },
+    {
+      "id": "03_dog",
+      "title": "Dog / fine fur and shadow",
+      "width": 2048,
+      "height": 1080,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 132.191,
+      "processing_fps": 0.726,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.844
+    },
+    {
+      "id": "04_sheer_shawl",
+      "title": "Sheer shawl / real transmission",
+      "width": 1280,
+      "height": 720,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 74.929,
+      "processing_fps": 1.281,
+      "screen_probe_mean_alpha": 0.02859284867930656,
+      "peak_torch_allocated_GiB": 4.538
+    },
+    {
+      "id": "05_furniture",
+      "title": "Furniture / fabric texture and hard edges",
+      "width": 1920,
+      "height": 1080,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 139.285,
+      "processing_fps": 0.689,
+      "screen_probe_mean_alpha": 3.9638040289317424e-05,
+      "peak_torch_allocated_GiB": 7.693
+    },
+    {
+      "id": "06_office_pair",
+      "title": "Two coworkers / hair and overlapping subjects",
+      "width": 1920,
+      "height": 1080,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 141.293,
+      "processing_fps": 0.679,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.693
+    },
+    {
+      "id": "07_mature_pair",
+      "title": "Mature pair / two silhouettes",
+      "width": 1080,
+      "height": 1920,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 155.973,
+      "processing_fps": 0.615,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.693
+    },
+    {
+      "id": "08_male_prop",
+      "title": "Clothed man / hands and recycling bin",
+      "width": 1080,
+      "height": 1920,
+      "frames": 96,
+      "fps": 24,
+      "engine_seconds": 142.462,
+      "processing_fps": 0.674,
+      "screen_probe_mean_alpha": 0.0,
+      "peak_torch_allocated_GiB": 7.693
+    }
+  ],
+  "source_frames": 768,
+  "source_duration_seconds": 32,
+  "total_engine_seconds": 1076.961,
+  "ground_truth_available": false,
+  "accuracy_score": null,
+  "source_categories": [
+    "Curly hair and glasses",
+    "Male presenter / hair, beard and gestures",
+    "Dog / fine fur and shadow",
+    "Sheer shawl / real transmission",
+    "Furniture / fabric texture and hard edges",
+    "Two coworkers / hair and overlapping subjects",
+    "Mature pair / two silhouettes",
+    "Clothed man / hands and recycling bin"
+  ],
+  "quality_evidence": "Native ROI, black/white/checker, first/middle/end and adjacent46..50 frames; see manual_review.json. Full technical video decode is separate from sampled visual review."
+}

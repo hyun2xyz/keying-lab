@@ -1,0 +1,322 @@
+[
+  {
+    "label": "actual_hair_inference",
+    "utc": "2026-10-28T09:49:26.296403+00:00",
+    "image": "qa/process/00_actual_hair_inference.png",
+    "sha256": "35208ca80fd399c4ebd940058d0ffe3367adf12c683918c4c7c2b1745261af5d",
+    "output_duration_ms_before": 149399,
+    "output_duration_ms_after": 149699,
+    "actual_monitor_phase": "ACTUAL CORRIDORKEY 2.0 / REAL CAMERA INPUT",
+    "recording_active": true
+  },
+  {
+    "label": "actual_dog_processing",
+    "utc": "2026-10-28T09:55:25.625321+00:00",
+    "image": "qa/process/01_actual_dog_processing.png",
+    "sha256": "3b52c807c16165051818c5b55b4f97f404806ce209c424ac6ef213ce902ae71d",
+    "output_duration_ms_before": 508899,
+    "output_duration_ms_after": 509033,
+    "actual_monitor_phase": "ACTUAL CORRIDORKEY 2.0 / REAL CAMERA INPUT",
+    "recording_active": true
+  },
+  {
+    "label": "actual_shawl_or_furniture_processing",
+    "utc": "2026-10-28T09:58:35.685826+00:00",
+    "image": "qa/process/02_actual_shawl_or_furniture_processing.png",
+    "sha256": "3f196bcbc218e71eea33c4cee3550686ead800991a39799d1f2f19ef675db3d5",
+    "output_duration_ms_before": 698799,
+    "output_duration_ms_after": 699099,
+    "actual_monitor_phase": "ACTUAL CORRIDORKEY 2.0 / REAL CAMERA INPUT",
+    "recording_active": true
+  },
+  {
+    "label": "male_group_revision_start",
+    "utc": "2026-10-28T10:14:12.122125+00:00",
+    "image": "qa/process/03_male_group_revision_start.png",
+    "sha256": "a7ccbc050a3f07da5ee3a800ed89b1cb1aa72e0b281680f18c369f21b30bda2b",
+    "output_duration_ms_before": 891699,
+    "output_duration_ms_after": 891799,
+    "actual_monitor_phase": "MALE/GROUP REVISION / REAL CAMERA INPUTS READY",
+    "recording_active": true
+  },
+  {
+    "label": "actual_male_group_processing",
+    "utc": "2026-10-28T10:17:24.467853+00:00",
+    "image": "qa/process/04_actual_male_group_processing.png",
+    "sha256": "0369b5899f8f9ad297cc1ff3787eb1ae6e87583428223287150d93277b5afed1",
+    "output_duration_ms_before": 1083933,
+    "output_duration_ms_after": 1084166,
+    "actual_monitor_phase": "ACTUAL CORRIDORKEY 2.0 / REAL CAMERA INPUT",
+    "recording_active": true
+  },
+  {
+    "label": "actual_office_pair_processing",
+    "utc": "2026-10-28T10:20:32.028911+00:00",
+    "image": "qa/process/05_actual_office_pair_processing.png",
+    "sha256": "966599a9bd939a7c5db1f4d29b7d3cca0371d3524c5bae693a2f92b6bf00f4d2",
+    "output_duration_ms_before": 1271599,
+    "output_duration_ms_after": 1271733,
+    "actual_monitor_phase": "ACTUAL CORRIDORKEY 2.0 / REAL CAMERA INPUT",
+    "recording_active": true
+  },
+  {
+    "label": "actual_mature_or_prop_processing",
+    "utc": "2026-10-28T10:23:34.659912+00:00",
+    "image": "qa/process/06_actual_mature_or_prop_processing.png",
+    "sha256": "50c3a8c08aee1653bd8d0b11338bac9b794c28ea04654677d556b5cce00680ce",
+    "output_duration_ms_before": 1454199,
+    "output_duration_ms_after": 1454366,
+    "actual_monitor_phase": "COMPLETED REAL INFERENCE / RESULT PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "actual_reel_encoding",
+    "utc": "2026-10-28T10:35:15.934811+00:00",
+    "image": "qa/process/07_actual_reel_encoding.png",
+    "sha256": "71a296398cff1555d8df0557f13f36c96a42a032621f103a1c392b8b79fed7f9",
+    "output_duration_ms_before": 2155466,
+    "output_duration_ms_after": 2155599,
+    "actual_monitor_phase": "REAL8 REEL ENCODING / ACTUAL RENDER LOG",
+    "recording_active": true
+  },
+  {
+    "label": "review_01_hair_glasses_overview",
+    "utc": "2026-10-28T10:44:06.117914+00:00",
+    "image": "qa/process/08_review_01_hair_glasses_overview.png",
+    "sha256": "ec155fed6993b226f939b454ebcb51e5af226046f139122106cb46542681caae",
+    "output_duration_ms_before": 2685466,
+    "output_duration_ms_after": 2685799,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_01_hair_glasses_alpha",
+    "utc": "2026-10-28T10:44:14.107423+00:00",
+    "image": "qa/process/09_review_01_hair_glasses_alpha.png",
+    "sha256": "5624d62f59c96ea57803749a51bb1c127f1b0f0b6704222f1cf3e71ecd41f6a8",
+    "output_duration_ms_before": 2693466,
+    "output_duration_ms_after": 2693766,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_01_hair_glasses_checker_zoom",
+    "utc": "2026-10-28T10:44:16.290405+00:00",
+    "image": "qa/process/10_review_01_hair_glasses_checker_zoom.png",
+    "sha256": "ba40335e98feae1b47dae3845ad6635f26f4555ec8bcc9ead743c69ac178f19f",
+    "output_duration_ms_before": 2695666,
+    "output_duration_ms_after": 2695966,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_02_male_presenter_overview",
+    "utc": "2026-10-28T10:44:18.716709+00:00",
+    "image": "qa/process/11_review_02_male_presenter_overview.png",
+    "sha256": "6f0fd18ceb236849160d81c2373de93b2942329c8b9a592521e210f722dfed4d",
+    "output_duration_ms_before": 2698266,
+    "output_duration_ms_after": 2698399,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_02_male_presenter_alpha",
+    "utc": "2026-10-28T10:44:26.696511+00:00",
+    "image": "qa/process/12_review_02_male_presenter_alpha.png",
+    "sha256": "429ced36e9045b1b9a05500f7d9fb1c6f56cb737a719449e6732b5146a0e693c",
+    "output_duration_ms_before": 2706266,
+    "output_duration_ms_after": 2706366,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_02_male_presenter_checker_zoom",
+    "utc": "2026-10-28T10:44:28.908039+00:00",
+    "image": "qa/process/13_review_02_male_presenter_checker_zoom.png",
+    "sha256": "94baa0880495336db66d8dd5c4906daa30d990c523585435ccb3701adb2c686c",
+    "output_duration_ms_before": 2708466,
+    "output_duration_ms_after": 2708599,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_03_dog_overview",
+    "utc": "2026-10-28T10:44:31.570940+00:00",
+    "image": "qa/process/14_review_03_dog_overview.png",
+    "sha256": "a28348bffdd995dfa11ed4ddbec783f9255b331301301b71c21461de09bb17f3",
+    "output_duration_ms_before": 2711066,
+    "output_duration_ms_after": 2711233,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_03_dog_alpha",
+    "utc": "2026-10-28T10:44:39.546023+00:00",
+    "image": "qa/process/15_review_03_dog_alpha.png",
+    "sha256": "06630e1af097a2f08b527aecf742c3115201455bb98951147004c4b18c65b028",
+    "output_duration_ms_before": 2719066,
+    "output_duration_ms_after": 2719199,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_03_dog_checker_zoom",
+    "utc": "2026-10-28T10:44:41.765461+00:00",
+    "image": "qa/process/16_review_03_dog_checker_zoom.png",
+    "sha256": "1656f911cbd8bf9999427b6acdd826110874bf866ec76643f39b33200478ea85",
+    "output_duration_ms_before": 2721266,
+    "output_duration_ms_after": 2721433,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_04_sheer_shawl_overview",
+    "utc": "2026-10-28T10:44:44.572855+00:00",
+    "image": "qa/process/17_review_04_sheer_shawl_overview.png",
+    "sha256": "37351cd336d3857616e058bb37f5a7633b34bc088e9fe09d53c85d3b39869d67",
+    "output_duration_ms_before": 2723899,
+    "output_duration_ms_after": 2724233,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_04_sheer_shawl_alpha",
+    "utc": "2026-10-28T10:44:52.497273+00:00",
+    "image": "qa/process/18_review_04_sheer_shawl_alpha.png",
+    "sha256": "08654d3bb0af5621630ce20a5f6e52283bdd714f4de26072b4bb1f038635d32e",
+    "output_duration_ms_before": 2731866,
+    "output_duration_ms_after": 2732166,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_04_sheer_shawl_checker_zoom",
+    "utc": "2026-10-28T10:44:54.773602+00:00",
+    "image": "qa/process/19_review_04_sheer_shawl_checker_zoom.png",
+    "sha256": "f19a678cc65d8016e72ded9585df4436603619019e8f430c7d0c3f2818cbf224",
+    "output_duration_ms_before": 2734099,
+    "output_duration_ms_after": 2734433,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_05_furniture_overview",
+    "utc": "2026-10-28T10:44:57.269752+00:00",
+    "image": "qa/process/20_review_05_furniture_overview.png",
+    "sha256": "a186824b01bc56f188e97eea676976de77117fc18c62d3b823fbf10c6bb356e8",
+    "output_duration_ms_before": 2736666,
+    "output_duration_ms_after": 2736933,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_05_furniture_alpha",
+    "utc": "2026-10-28T10:45:05.252370+00:00",
+    "image": "qa/process/21_review_05_furniture_alpha.png",
+    "sha256": "4edc198812dbd96d0937e9951a4c151301499ab2600a3ea61d2cedbdc0cd8ed4",
+    "output_duration_ms_before": 2744699,
+    "output_duration_ms_after": 2744933,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_05_furniture_checker_zoom",
+    "utc": "2026-10-28T10:45:07.530070+00:00",
+    "image": "qa/process/22_review_05_furniture_checker_zoom.png",
+    "sha256": "031739197ff48619728b0ae9fb1b910025c8e4fece2a78c48b7a32e93249e4e0",
+    "output_duration_ms_before": 2746899,
+    "output_duration_ms_after": 2747199,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_06_office_pair_overview",
+    "utc": "2026-10-28T10:45:09.999380+00:00",
+    "image": "qa/process/23_review_06_office_pair_overview.png",
+    "sha256": "c386a6b11fa6061e24db87a7391f3ca1934905d590aece5ed73f88e2ff37fe71",
+    "output_duration_ms_before": 2749466,
+    "output_duration_ms_after": 2749666,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_06_office_pair_alpha",
+    "utc": "2026-10-28T10:45:17.974342+00:00",
+    "image": "qa/process/24_review_06_office_pair_alpha.png",
+    "sha256": "77e6df8fc5bbadf4ce882b09aba90ccba4f28ed64c3918695192d62d3e6c4946",
+    "output_duration_ms_before": 2757499,
+    "output_duration_ms_after": 2757666,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_06_office_pair_checker_zoom",
+    "utc": "2026-10-28T10:45:20.181174+00:00",
+    "image": "qa/process/25_review_06_office_pair_checker_zoom.png",
+    "sha256": "91e7564f4b8900e9017674fa1510eb86be9b8eadf914e0b4e72c1bf936c41ea4",
+    "output_duration_ms_before": 2759666,
+    "output_duration_ms_after": 2759833,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_07_mature_pair_overview",
+    "utc": "2026-10-28T10:45:22.743818+00:00",
+    "image": "qa/process/26_review_07_mature_pair_overview.png",
+    "sha256": "fdcd9d635aaf2d71e13a7de10351982eeb802e049da1c8fc0d96c4285eee4754",
+    "output_duration_ms_before": 2762299,
+    "output_duration_ms_after": 2762399,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_07_mature_pair_alpha",
+    "utc": "2026-10-28T10:45:30.777737+00:00",
+    "image": "qa/process/27_review_07_mature_pair_alpha.png",
+    "sha256": "6b9110f817a69729b9b0b9e57b1d3d88f4cddd9f4a83cfc3bcb69145e395412e",
+    "output_duration_ms_before": 2770299,
+    "output_duration_ms_after": 2770466,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_07_mature_pair_checker_zoom",
+    "utc": "2026-10-28T10:45:32.993521+00:00",
+    "image": "qa/process/28_review_07_mature_pair_checker_zoom.png",
+    "sha256": "5a6bfa5e7f161f95219c3e6510c0da4de0a68355aec4b350f5637547e9bfd8d5",
+    "output_duration_ms_before": 2772499,
+    "output_duration_ms_after": 2772666,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_08_male_prop_overview",
+    "utc": "2026-10-28T10:45:35.546049+00:00",
+    "image": "qa/process/29_review_08_male_prop_overview.png",
+    "sha256": "46e9f05bba6cbc82096aa72bad4e74438f34e7345f8db84bcea595a40738790b",
+    "output_duration_ms_before": 2775066,
+    "output_duration_ms_after": 2775199,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_08_male_prop_alpha",
+    "utc": "2026-10-28T10:45:43.555226+00:00",
+    "image": "qa/process/30_review_08_male_prop_alpha.png",
+    "sha256": "85c95eabe817cd42cab4cbbbc214667e3068dc06b1689790ef78b24b15023098",
+    "output_duration_ms_before": 2783066,
+    "output_duration_ms_after": 2783233,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  },
+  {
+    "label": "review_08_male_prop_checker_zoom",
+    "utc": "2026-10-28T10:45:45.800525+00:00",
+    "image": "qa/process/31_review_08_male_prop_checker_zoom.png",
+    "sha256": "7e5b7800c3a71f9527e5c3f037afdfd7cd98d6d8bfb922f0192132a81bc62f00",
+    "output_duration_ms_before": 2785299,
+    "output_duration_ms_after": 2785466,
+    "actual_monitor_phase": "COMPLETED OUTPUT REVIEW / PLAYBACK",
+    "recording_active": true
+  }
+]

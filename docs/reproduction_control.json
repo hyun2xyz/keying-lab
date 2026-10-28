@@ -1,0 +1,10 @@
+{
+  "status": "PORTABLE_PUBLIC_REFERENCE_CONTROL_PASSED",
+  "source_and_prediction_png_identities_matched": 1536,
+  "control_case": "02_male_presenter",
+  "original_preview_sha256": "e71ff2bb3ae495c10976ed280e29d666520f006ebd9676780c60e8b01bc2152f",
+  "portable_reference_preview_sha256": "e71ff2bb3ae495c10976ed280e29d666520f006ebd9676780c60e8b01bc2152f",
+  "same_rendered_contact_bytes": true,
+  "original_recorded_manifests_modified": false,
+  "limit": "This rebinds the published recorded proof to local files; no new GPU inference or cross-hardware bit-identity guarantee."
+}

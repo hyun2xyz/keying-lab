@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-28T11:17:52.652872+00:00",
+  "renderer_sha256": "0b1da6ce1e1520d8cbce248be8c54cdc941f8be61bda1fc1eb3c78e62c21de4b",
+  "camera_value_continuity_at_all_joins_checked": true,
+  "camera_zero_endpoint_velocity_by_curve": true,
+  "all360_source_clock_samples_checked": true,
+  "wipe_events": [
+    [
+      24,
+      "checker",
+      "source",
+      "left_to_right"
+    ],
+    [
+      48,
+      "source",
+      "checker",
+      "right_to_left"
+    ],
+    [
+      96,
+      "checker",
+      "alpha",
+      "left_to_right"
+    ],
+    [
+      126,
+      "alpha",
+      "checker",
+      "right_to_left"
+    ],
+    [
+      162,
+      "checker",
+      "black",
+      "left_to_right"
+    ],
+    [
+      192,
+      "black",
+      "white",
+      "right_to_left"
+    ],
+    [
+      222,
+      "white",
+      "checker",
+      "left_to_right"
+    ],
+    [
+      252,
+      "checker",
+      "source",
+      "right_to_left"
+    ],
+    [
+      282,
+      "source",
+      "alpha",
+      "left_to_right"
+    ],
+    [
+      312,
+      "alpha",
+      "checker",
+      "right_to_left"
+    ]
+  ],
+  "wipe_visible_boundary_samples": 50,
+  "camera_segments": [
+    [
+      0,
+      30,
+      0,
+      0,
+      "hold"
+    ],
+    [
+      30,
+      78,
+      0,
+      1,
+      "fast_settle"
+    ],
+    [
+      78,
+      138,
+      1,
+      1,
+      "hold"
+    ],
+    [
+      138,
+      180,
+      1,
+      0,
+      "ease_in_out"
+    ],
+    [
+      180,
+      204,
+      0,
+      0,
+      "hold"
+    ],
+    [
+      204,
+      252,
+      0,
+      1,
+      "fast_settle"
+    ],
+    [
+      252,
+      318,
+      1,
+      1,
+      "hold"
+    ],
+    [
+      318,
+      354,
+      1,
+      0,
+      "ease_in_out"
+    ],
+    [
+      354,
+      360,
+      0,
+      0,
+      "hold"
+    ]
+  ],
+  "curves": {
+    "fast_settle": [
+      0.2,
+      0.0,
+      0.12,
+      1.0
+    ],
+    "ease_in_out": [
+      0.42,
+      0.0,
+      0.58,
+      1.0
+    ]
+  },
+  "cv2_version": "5.0.0",
+  "cv2_distributions": {
+    "opencv-python-headless": "5.0.0.93"
+  },
+  "legacy_renderer_sha256": "e36dc7ece53990512eece794e09f49a87a68a11c04fb915f8d88645a222b9169",
+  "legacy_manifest_sha256": "69a1dd7f489eec81721dc48ddc51e482cd157443f9a8e622fdabb778bfb72714",
+  "legacy_render_receipt_sha256": "ca995360f0e129c83b1a07bfc52650c5f99f05ef9c56aafbd97835c08a346914"
+}

@@ -1,0 +1,30 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "torch": "2.9.1+cu128",
+  "cuda": "12.8",
+  "engine_commit": "485f5e9ab759ead6138cc990776184b59d6ea971",
+  "model_revision": "cf44a8db3f024bb49fd59daa408848ccf05f7477",
+  "weights": [
+    {
+      "name": "corridorkey_v2.safetensors",
+      "bytes": 2661698720,
+      "sha256": "c43596de98cc8866d577c8a9f9ea239acdf3f7a130ff24e25db4375a50590436"
+    }
+  ],
+  "actual_profile": {
+    "low_vram": true,
+    "hann_chunk": 24,
+    "hann_stride": 12,
+    "hint": null,
+    "despill_strength": 0.5
+  },
+  "review_runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "Pillow": "12.3.0",
+    "opencv-python-headless": "5.0.0.93",
+    "ffmpeg": "7.1.1"
+  },
+  "source_storage": "C: NVMe SSD",
+  "weights_redistributed": false
+}

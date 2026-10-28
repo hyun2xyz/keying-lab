@@ -1,0 +1,96 @@
+{
+  "status": "SELECTED_AND_VISUALLY_REVIEWED",
+  "created_utc": "2026-10-28T09:53:36.494361+00:00",
+  "dataset_manifest_sha256": "b5b8f6fe9c8ec4c25e7ed8340787bf8633b7d849a32388ca0271790f676c069c",
+  "dataset_manifest_modified": false,
+  "overrides": [
+    {
+      "id": "05_furniture",
+      "original_dataset_roi": [
+        1050,
+        240,
+        640,
+        360
+      ],
+      "reel_roi": [
+        800,
+        240,
+        1040,
+        585
+      ],
+      "scope": "reel_manifest.json only; fixed across all frames",
+      "reason": "Original ROI primarily covered green/markers. Wider fixed ROI selected from source0/48/95 to include draped fabric and sofa upper/hard edges despite camera movement.",
+      "expected_display_scale": 1.0384615384615385,
+      "review_frames": [
+        {
+          "source_frame": 0,
+          "source_seconds": 0.0,
+          "path": ".\\samples\\05_furniture\\source\\00000.png",
+          "sha256": "d21f16aa3c2fcd1410985e51aaedbc28b6697ccee9bd8dcaeb7df10dd4eea800"
+        },
+        {
+          "source_frame": 48,
+          "source_seconds": 2.0,
+          "path": ".\\samples\\05_furniture\\source\\00048.png",
+          "sha256": "191c6778aff4388890ebe27a9fed69b3716217ab7f5c2d7da23b16958d99fd7a"
+        },
+        {
+          "source_frame": 95,
+          "source_seconds": 3.9583333333333335,
+          "path": ".\\samples\\05_furniture\\source\\00095.png",
+          "sha256": "62ec543ef2e47e95802c24d9b501f5664678ee2f2e6152d849e1dddea25ac34f"
+        }
+      ],
+      "review_contact": ".\\reels\\furniture_roi_review.jpg",
+      "limits": "Fixed ROI cannot retain every edge/marker during camera motion. Original full-frame stage remains complete; no marker removal or matte cleanup is performed.",
+      "visual_review": "Directly reviewed source0/48/95 and the three-row full/crop contact. All three samples show draped-fabric/sofa boundaries. First sample also retains upper tracking-marker pixels. Some far sofa edges/markers leave this fixed ROI with camera movement; full-frame stage retains the complete plate."
+    },
+    {
+      "id": "02_male_presenter",
+      "original_dataset_roi": [
+        550,
+        120,
+        720,
+        405
+      ],
+      "reel_roi": [
+        560,
+        30,
+        880,
+        495
+      ],
+      "scope": "reel_manifest.json only; fixed across all frames",
+      "reason": "User/main review found the original ROI clipped upper hair. Recentered and widened upward from source0/48/95 to include hair top and beard boundary.",
+      "dataset_manifest_sha256": "571f0e547938aabc03474828c0892c5430e0c691587c69bc867273e97f293e7a",
+      "expected_display_scale": 1.2272727272727273,
+      "review_frames": [
+        {
+          "source_frame": 0,
+          "source_seconds": 0.0,
+          "path": ".\\samples\\02_male_presenter\\source\\00000.png",
+          "sha256": "3b195b6874061a5937b2775346f81b30fb1f359b6c0ad6436c5c7d967ce9651f"
+        },
+        {
+          "source_frame": 48,
+          "source_seconds": 2.0,
+          "path": ".\\samples\\02_male_presenter\\source\\00048.png",
+          "sha256": "89128846a809c52f577bb0cc37ebaf6657ac7cb9ceec7c2a7642345ecdd42282"
+        },
+        {
+          "source_frame": 95,
+          "source_seconds": 3.9583333333333335,
+          "path": ".\\samples\\02_male_presenter\\source\\00095.png",
+          "sha256": "86c2e37ada2091f9b6a633e60f4fd7340c472840873a5c09baf3a057e87fe885"
+        }
+      ],
+      "review_contact": ".\\reels\\male_presenter_roi_review.jpg",
+      "visual_review": "Directly reviewed source0/48/95 and candidate contact: complete upper hair and beard boundary retained at all3samples.",
+      "limits": "Fixed source crop; no per-frame reframing. Original full-frame stage remains complete.",
+      "reviewed_utc": "2026-10-28T10:26:31.595857+00:00",
+      "status": "SELECTED_AND_VISUALLY_REVIEWED"
+    }
+  ],
+  "reviewed_utc": "2026-10-28T09:54:03.392203+00:00",
+  "additional_review_dataset_manifest_sha256": "571f0e547938aabc03474828c0892c5430e0c691587c69bc867273e97f293e7a",
+  "immutable_original_sha256": "0661afffcefd3710f539da657d4a868590ca87e89c15bac73df15da58bfb945b"
+}

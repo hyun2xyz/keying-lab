@@ -1,0 +1,555 @@
+{
+  "status": "FULL_DECODED_AND_VISUALLY_REVIEWED_SAMPLES",
+  "recording_stopped": true,
+  "raw_name": "2026-10-28 18-46-55.mkv",
+  "raw_bytes": 272751209,
+  "raw_sha256": "98be158466f300bf5d406109b067f2941d0d7da9e04bf6afc4fed319af1f3c83",
+  "raw_full_decode": {
+    "1": {
+      "decoded_frames_or_audio_packets": 131786,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 2811.4131666666667,
+      "largest_pts_gap_seconds": 0.021333333333333333,
+      "framehash_time_base": "1/48000"
+    },
+    "0": {
+      "decoded_frames_or_audio_packets": 84344,
+      "first_pts_seconds": 0.021,
+      "last_pts_seconds": 2811.554,
+      "largest_pts_gap_seconds": 0.133,
+      "framehash_time_base": "1/1000"
+    }
+  },
+  "raw_framehash_sha256": "3400f4ebc4deaddf0eda0f91c86425e4a48665d4bfb31911f0c44c7cf2345948",
+  "raw_publicly_uploaded": false,
+  "removed_input_interval_seconds": [
+    216.20325183868408,
+    388.67100191116333
+  ],
+  "reason": "User rejected the original second dance sample. Entire capture interval plus3-second guards removed. Raw preserved locally.",
+  "intentional_pause_events": [
+    {
+      "action": "pause",
+      "utc": "2026-10-28T10:01:47.287141+00:00",
+      "note": "Intentional pause for male/group source selection. Rejected female dance segment will be excluded from the published process edit."
+    },
+    {
+      "action": "resume",
+      "utc": "2026-10-28T10:14:11.009049+00:00",
+      "note": "Resume verified native8-test capture for clothed male replacement and three new male/group sources."
+    },
+    {
+      "action": "stop",
+      "utc": "2026-10-28T10:46:10.263570+00:00",
+      "note": "Eight accepted real footage cases finished; actual output review captured. Finalize and fully decode saved file before public release."
+    }
+  ],
+  "public_file": "recordings/process_recording.mp4",
+  "public_sha256": "51b1b57ac6367e5574a2c46c3376c1ac26a014e33f92a3efa621d0e576bb3a35",
+  "public_bytes": 150464213,
+  "public_duration_seconds": 2639.1,
+  "public_full_decode": {
+    "0": {
+      "decoded_frames_or_audio_packets": 79173,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 2639.0666666666666,
+      "largest_pts_gap_seconds": 0.03333333333333333,
+      "framehash_time_base": "1/30"
+    }
+  },
+  "public_framehash_sha256": "db688d3f01350bbbfe524a4fdce265733c7409beac010bb64cbcb22a9c887bd8",
+  "approximate_capture_anchors": [
+    {
+      "label": "actual_hair_inference",
+      "input_capture_ms": [
+        149399.0,
+        149699.0
+      ],
+      "edited_approx_frame": 4486,
+      "source_screenshot_sha256": "35208ca80fd399c4ebd940058d0ffe3367adf12c683918c4c7c2b1745261af5d"
+    },
+    {
+      "label": "actual_dog_processing",
+      "input_capture_ms": [
+        508899.0,
+        509033.0
+      ],
+      "edited_approx_frame": 10095,
+      "source_screenshot_sha256": "3b52c807c16165051818c5b55b4f97f404806ce209c424ac6ef213ce902ae71d"
+    },
+    {
+      "label": "actual_shawl_or_furniture_processing",
+      "input_capture_ms": [
+        698799.0,
+        699099.0
+      ],
+      "edited_approx_frame": 15794,
+      "source_screenshot_sha256": "3f196bcbc218e71eea33c4cee3550686ead800991a39799d1f2f19ef675db3d5"
+    },
+    {
+      "label": "male_group_revision_start",
+      "input_capture_ms": [
+        891699.0,
+        891799.0
+      ],
+      "edited_approx_frame": 21578,
+      "source_screenshot_sha256": "a7ccbc050a3f07da5ee3a800ed89b1cb1aa72e0b281680f18c369f21b30bda2b"
+    },
+    {
+      "label": "actual_male_group_processing",
+      "input_capture_ms": [
+        1083933.0,
+        1084166.0
+      ],
+      "edited_approx_frame": 27347,
+      "source_screenshot_sha256": "0369b5899f8f9ad297cc1ff3787eb1ae6e87583428223287150d93277b5afed1"
+    },
+    {
+      "label": "actual_office_pair_processing",
+      "input_capture_ms": [
+        1271599.0,
+        1271733.0
+      ],
+      "edited_approx_frame": 32976,
+      "source_screenshot_sha256": "966599a9bd939a7c5db1f4d29b7d3cca0371d3524c5bae693a2f92b6bf00f4d2"
+    },
+    {
+      "label": "actual_mature_or_prop_processing",
+      "input_capture_ms": [
+        1454199.0,
+        1454366.0
+      ],
+      "edited_approx_frame": 38454,
+      "source_screenshot_sha256": "50c3a8c08aee1653bd8d0b11338bac9b794c28ea04654677d556b5cce00680ce"
+    },
+    {
+      "label": "actual_reel_encoding",
+      "input_capture_ms": [
+        2155466.0,
+        2155599.0
+      ],
+      "edited_approx_frame": 59492,
+      "source_screenshot_sha256": "71a296398cff1555d8df0557f13f36c96a42a032621f103a1c392b8b79fed7f9"
+    },
+    {
+      "label": "review_01_hair_glasses_overview",
+      "input_capture_ms": [
+        2685466.0,
+        2685799.0
+      ],
+      "edited_approx_frame": 75395,
+      "source_screenshot_sha256": "ec155fed6993b226f939b454ebcb51e5af226046f139122106cb46542681caae"
+    },
+    {
+      "label": "review_01_hair_glasses_alpha",
+      "input_capture_ms": [
+        2693466.0,
+        2693766.0
+      ],
+      "edited_approx_frame": 75634,
+      "source_screenshot_sha256": "5624d62f59c96ea57803749a51bb1c127f1b0f0b6704222f1cf3e71ecd41f6a8"
+    },
+    {
+      "label": "review_01_hair_glasses_checker_zoom",
+      "input_capture_ms": [
+        2695666.0,
+        2695966.0
+      ],
+      "edited_approx_frame": 75700,
+      "source_screenshot_sha256": "ba40335e98feae1b47dae3845ad6635f26f4555ec8bcc9ead743c69ac178f19f"
+    },
+    {
+      "label": "review_02_male_presenter_overview",
+      "input_capture_ms": [
+        2698266.0,
+        2698399.0
+      ],
+      "edited_approx_frame": 75776,
+      "source_screenshot_sha256": "6f0fd18ceb236849160d81c2373de93b2942329c8b9a592521e210f722dfed4d"
+    },
+    {
+      "label": "review_02_male_presenter_alpha",
+      "input_capture_ms": [
+        2706266.0,
+        2706366.0
+      ],
+      "edited_approx_frame": 76015,
+      "source_screenshot_sha256": "429ced36e9045b1b9a05500f7d9fb1c6f56cb737a719449e6732b5146a0e693c"
+    },
+    {
+      "label": "review_02_male_presenter_checker_zoom",
+      "input_capture_ms": [
+        2708466.0,
+        2708599.0
+      ],
+      "edited_approx_frame": 76082,
+      "source_screenshot_sha256": "94baa0880495336db66d8dd5c4906daa30d990c523585435ccb3701adb2c686c"
+    },
+    {
+      "label": "review_03_dog_overview",
+      "input_capture_ms": [
+        2711066.0,
+        2711233.0
+      ],
+      "edited_approx_frame": 76160,
+      "source_screenshot_sha256": "a28348bffdd995dfa11ed4ddbec783f9255b331301301b71c21461de09bb17f3"
+    },
+    {
+      "label": "review_03_dog_alpha",
+      "input_capture_ms": [
+        2719066.0,
+        2719199.0
+      ],
+      "edited_approx_frame": 76400,
+      "source_screenshot_sha256": "06630e1af097a2f08b527aecf742c3115201455bb98951147004c4b18c65b028"
+    },
+    {
+      "label": "review_03_dog_checker_zoom",
+      "input_capture_ms": [
+        2721266.0,
+        2721433.0
+      ],
+      "edited_approx_frame": 76466,
+      "source_screenshot_sha256": "1656f911cbd8bf9999427b6acdd826110874bf866ec76643f39b33200478ea85"
+    },
+    {
+      "label": "review_04_sheer_shawl_overview",
+      "input_capture_ms": [
+        2723899.0,
+        2724233.0
+      ],
+      "edited_approx_frame": 76548,
+      "source_screenshot_sha256": "37351cd336d3857616e058bb37f5a7633b34bc088e9fe09d53c85d3b39869d67"
+    },
+    {
+      "label": "review_04_sheer_shawl_alpha",
+      "input_capture_ms": [
+        2731866.0,
+        2732166.0
+      ],
+      "edited_approx_frame": 76786,
+      "source_screenshot_sha256": "08654d3bb0af5621630ce20a5f6e52283bdd714f4de26072b4bb1f038635d32e"
+    },
+    {
+      "label": "review_04_sheer_shawl_checker_zoom",
+      "input_capture_ms": [
+        2734099.0,
+        2734433.0
+      ],
+      "edited_approx_frame": 76854,
+      "source_screenshot_sha256": "f19a678cc65d8016e72ded9585df4436603619019e8f430c7d0c3f2818cbf224"
+    },
+    {
+      "label": "review_05_furniture_overview",
+      "input_capture_ms": [
+        2736666.0,
+        2736933.0
+      ],
+      "edited_approx_frame": 76930,
+      "source_screenshot_sha256": "a186824b01bc56f188e97eea676976de77117fc18c62d3b823fbf10c6bb356e8"
+    },
+    {
+      "label": "review_05_furniture_alpha",
+      "input_capture_ms": [
+        2744699.0,
+        2744933.0
+      ],
+      "edited_approx_frame": 77170,
+      "source_screenshot_sha256": "4edc198812dbd96d0937e9951a4c151301499ab2600a3ea61d2cedbdc0cd8ed4"
+    },
+    {
+      "label": "review_05_furniture_checker_zoom",
+      "input_capture_ms": [
+        2746899.0,
+        2747199.0
+      ],
+      "edited_approx_frame": 77237,
+      "source_screenshot_sha256": "031739197ff48619728b0ae9fb1b910025c8e4fece2a78c48b7a32e93249e4e0"
+    },
+    {
+      "label": "review_06_office_pair_overview",
+      "input_capture_ms": [
+        2749466.0,
+        2749666.0
+      ],
+      "edited_approx_frame": 77313,
+      "source_screenshot_sha256": "c386a6b11fa6061e24db87a7391f3ca1934905d590aece5ed73f88e2ff37fe71"
+    },
+    {
+      "label": "review_06_office_pair_alpha",
+      "input_capture_ms": [
+        2757499.0,
+        2757666.0
+      ],
+      "edited_approx_frame": 77553,
+      "source_screenshot_sha256": "77e6df8fc5bbadf4ce882b09aba90ccba4f28ed64c3918695192d62d3e6c4946"
+    },
+    {
+      "label": "review_06_office_pair_checker_zoom",
+      "input_capture_ms": [
+        2759666.0,
+        2759833.0
+      ],
+      "edited_approx_frame": 77618,
+      "source_screenshot_sha256": "91e7564f4b8900e9017674fa1510eb86be9b8eadf914e0b4e72c1bf936c41ea4"
+    },
+    {
+      "label": "review_07_mature_pair_overview",
+      "input_capture_ms": [
+        2762299.0,
+        2762399.0
+      ],
+      "edited_approx_frame": 77696,
+      "source_screenshot_sha256": "fdcd9d635aaf2d71e13a7de10351982eeb802e049da1c8fc0d96c4285eee4754"
+    },
+    {
+      "label": "review_07_mature_pair_alpha",
+      "input_capture_ms": [
+        2770299.0,
+        2770466.0
+      ],
+      "edited_approx_frame": 77937,
+      "source_screenshot_sha256": "6b9110f817a69729b9b0b9e57b1d3d88f4cddd9f4a83cfc3bcb69145e395412e"
+    },
+    {
+      "label": "review_07_mature_pair_checker_zoom",
+      "input_capture_ms": [
+        2772499.0,
+        2772666.0
+      ],
+      "edited_approx_frame": 78003,
+      "source_screenshot_sha256": "5a6bfa5e7f161f95219c3e6510c0da4de0a68355aec4b350f5637547e9bfd8d5"
+    },
+    {
+      "label": "review_08_male_prop_overview",
+      "input_capture_ms": [
+        2775066.0,
+        2775199.0
+      ],
+      "edited_approx_frame": 78080,
+      "source_screenshot_sha256": "46e9f05bba6cbc82096aa72bad4e74438f34e7345f8db84bcea595a40738790b"
+    },
+    {
+      "label": "review_08_male_prop_alpha",
+      "input_capture_ms": [
+        2783066.0,
+        2783233.0
+      ],
+      "edited_approx_frame": 78320,
+      "source_screenshot_sha256": "85c95eabe817cd42cab4cbbbc214667e3068dc06b1689790ef78b24b15023098"
+    },
+    {
+      "label": "review_08_male_prop_checker_zoom",
+      "input_capture_ms": [
+        2785299.0,
+        2785466.0
+      ],
+      "edited_approx_frame": 78387,
+      "source_screenshot_sha256": "7e5b7800c3a71f9527e5c3f037afdfd7cd98d6d8bfb922f0192132a81bc62f00"
+    }
+  ],
+  "decoded_public_evidence": [
+    {
+      "edited_frame": 0,
+      "file": "qa/process/decoded_public/001.png",
+      "sha256": "b35026dc4fe30f21276ca2e3b19a7bd076faef793ceb154f8eac76f232d602f6"
+    },
+    {
+      "edited_frame": 4486,
+      "file": "qa/process/decoded_public/002.png",
+      "sha256": "f4267a61fa5b4f58c37a6acef5c20eaef86695c1ca516510c76edbc9a4463fac"
+    },
+    {
+      "edited_frame": 6456,
+      "file": "qa/process/decoded_public/003.png",
+      "sha256": "481ccf397128b5358fb9289be77876948624abec5e82e0437949fb123bd43947"
+    },
+    {
+      "edited_frame": 6486,
+      "file": "qa/process/decoded_public/004.png",
+      "sha256": "d13d53108ca66445914b69b867cf717763909240eda9420190ffe1405023157b"
+    },
+    {
+      "edited_frame": 6516,
+      "file": "qa/process/decoded_public/005.png",
+      "sha256": "8d050e2721828c072bcbf643961b2a6dab906610cdc7db97d5a646f73ed47c63"
+    },
+    {
+      "edited_frame": 10095,
+      "file": "qa/process/decoded_public/006.png",
+      "sha256": "e41745235975ba54f38bf3e2b5f3a6d794c3c3545e74addd77a49ca6e603ba5d"
+    },
+    {
+      "edited_frame": 15794,
+      "file": "qa/process/decoded_public/007.png",
+      "sha256": "6b7c8d4a9ea6af8d1f4b6c2b1126e50ed18789da4f4ea4d82cd68b36ac236bb9"
+    },
+    {
+      "edited_frame": 21578,
+      "file": "qa/process/decoded_public/008.png",
+      "sha256": "54d7b4a7a09f7d9018db03689fefb9acca67ef47c199926ac8033f1b1bddfe63"
+    },
+    {
+      "edited_frame": 27347,
+      "file": "qa/process/decoded_public/009.png",
+      "sha256": "b067716985c287e4d23cfcac94f87d62b29aed2efb66ce19312e34e6827261e2"
+    },
+    {
+      "edited_frame": 32976,
+      "file": "qa/process/decoded_public/010.png",
+      "sha256": "4877535d49b3275cfdcd0b9f97c5a7a21c1a5c7a68b2405fb718f2131ae10b9e"
+    },
+    {
+      "edited_frame": 38454,
+      "file": "qa/process/decoded_public/011.png",
+      "sha256": "56550fe50afe8d0e363f39540c97e0bfe604e76adf50dd4d477f59658e192eee"
+    },
+    {
+      "edited_frame": 59492,
+      "file": "qa/process/decoded_public/012.png",
+      "sha256": "57d3d3f78cfd7b3d78ca3b7027c1ca98758b6bb704a89cbb7b0746db574c2df7"
+    },
+    {
+      "edited_frame": 75395,
+      "file": "qa/process/decoded_public/013.png",
+      "sha256": "3fb2883a05504fb0807ce2268eec874b875f05e576ab8c3d43ce1ac4cf76f0f1"
+    },
+    {
+      "edited_frame": 75634,
+      "file": "qa/process/decoded_public/014.png",
+      "sha256": "1b9debaa57e9d175fb7b3654663fceed129ec2f43282014c600625ce191e8487"
+    },
+    {
+      "edited_frame": 75700,
+      "file": "qa/process/decoded_public/015.png",
+      "sha256": "f0589a541cc9d9bf55a7240cf2bf22e917d6eecec321034eeafc872e65276acf"
+    },
+    {
+      "edited_frame": 75776,
+      "file": "qa/process/decoded_public/016.png",
+      "sha256": "ceb8c8522e7d01cfc400b4bd9c195e52158a1191f9b14651e0832d3e8496f6bf"
+    },
+    {
+      "edited_frame": 76015,
+      "file": "qa/process/decoded_public/017.png",
+      "sha256": "af6fd9e23ce1549a165a495f3b7d2070b2e70dc69d41f6dfd772d9f39df7a4e3"
+    },
+    {
+      "edited_frame": 76082,
+      "file": "qa/process/decoded_public/018.png",
+      "sha256": "72715c2d5f4a0a85b7c910d3c4d4e414ebb4ccc2b446a25f7729faf80263586e"
+    },
+    {
+      "edited_frame": 76160,
+      "file": "qa/process/decoded_public/019.png",
+      "sha256": "41d71668132f18bd996b5694fda5ffc1df886865c6f6ea3f8906fbcf3ddf11a8"
+    },
+    {
+      "edited_frame": 76400,
+      "file": "qa/process/decoded_public/020.png",
+      "sha256": "38890048839b0cef55011ec4e9fd9ed0c9cf8484aac1922865b1a24cb514eb1d"
+    },
+    {
+      "edited_frame": 76466,
+      "file": "qa/process/decoded_public/021.png",
+      "sha256": "0ae05aac1433586a01a3af7581d038befffc4c25f847f9c768bfc298b875eb69"
+    },
+    {
+      "edited_frame": 76548,
+      "file": "qa/process/decoded_public/022.png",
+      "sha256": "9b4fc2a157c49d8210c8c6c47d0d198a2bd9501b82de5e92d13e002c7f02b7a2"
+    },
+    {
+      "edited_frame": 76786,
+      "file": "qa/process/decoded_public/023.png",
+      "sha256": "ab832e62743d894414f0f4ad76dfa02160485f28987a99ffcd4f0a28b395f66e"
+    },
+    {
+      "edited_frame": 76854,
+      "file": "qa/process/decoded_public/024.png",
+      "sha256": "e5d98867a373c602200fd84f3e9642127dc8108f58d45d39a13bd852037cc8ab"
+    },
+    {
+      "edited_frame": 76930,
+      "file": "qa/process/decoded_public/025.png",
+      "sha256": "b24d6ff9428e8c42f69b9599e9c23d50ed827448937073f6f5e7d316fec49a24"
+    },
+    {
+      "edited_frame": 77170,
+      "file": "qa/process/decoded_public/026.png",
+      "sha256": "f6521429ee5c1fb0d419243a402e00ae4e4fa88b0a7dc301cbc146dac354a07d"
+    },
+    {
+      "edited_frame": 77237,
+      "file": "qa/process/decoded_public/027.png",
+      "sha256": "abfca068a6ce7e718cea3972c903da611ab9a72a10ee5244eef2c4686a74c611"
+    },
+    {
+      "edited_frame": 77313,
+      "file": "qa/process/decoded_public/028.png",
+      "sha256": "903cf8a02388c17038001588327d611646bc6360baadde4fef4c6a91d1665fcf"
+    },
+    {
+      "edited_frame": 77553,
+      "file": "qa/process/decoded_public/029.png",
+      "sha256": "6658796745530f4b50abd10b2c2d2805bd2070a01b69ed8bc29832caff4d9485"
+    },
+    {
+      "edited_frame": 77618,
+      "file": "qa/process/decoded_public/030.png",
+      "sha256": "15743538076e9e88439261d9233d603de056001fd98417c92296398ffa670838"
+    },
+    {
+      "edited_frame": 77696,
+      "file": "qa/process/decoded_public/031.png",
+      "sha256": "7790ba42cbf478aa37f988c41cd7de8edb00a5660e1a90ae837b100e72ac4961"
+    },
+    {
+      "edited_frame": 77937,
+      "file": "qa/process/decoded_public/032.png",
+      "sha256": "d1daa5e5b9decaca542bbba995acc67e30d05d675531ce718994c797f894fc43"
+    },
+    {
+      "edited_frame": 78003,
+      "file": "qa/process/decoded_public/033.png",
+      "sha256": "44de9306f615fee9a135d5a5b96d402b4dc2f5d3ddeeefb7c604b08a2c5c05c9"
+    },
+    {
+      "edited_frame": 78080,
+      "file": "qa/process/decoded_public/034.png",
+      "sha256": "7f0e8ebcc5065433d857333672ac1541bb9e1e8205a944c30bab9cc4e8a131ce"
+    },
+    {
+      "edited_frame": 78320,
+      "file": "qa/process/decoded_public/035.png",
+      "sha256": "38db4fca568e1aa7588c79d9eac7b350a7f2359241cb21d42c7466d4508e82dd"
+    },
+    {
+      "edited_frame": 78387,
+      "file": "qa/process/decoded_public/036.png",
+      "sha256": "906431f849fd4f0ec55d3044991c9ee7c17b7085c1e8a08eac6d2f91f3eb6489"
+    },
+    {
+      "edited_frame": 79172,
+      "file": "qa/process/decoded_public/037.png",
+      "sha256": "630a0ce7a0aa7baab39df88388a16c7446c862f4d87c9a87436f39a57da5f8e7"
+    }
+  ],
+  "silent_edit": true,
+  "limit": "Edited actual OBS capture, not a claim of uninterrupted or every-frame visually inspected work. Screenshot anchors use recorder elapsed time and are approximate within capture/display/encode latency.",
+  "original_generated_audit_sha256": "a49dace6e1781150d54051fe068dc78586b0ee777c9489ed2b003defd1cad31a",
+  "session_role": "Initial actual inference and first presentation pass. Final reels were subsequently revised to motion_v2; this recording is work history.",
+  "main_visual_review": {
+    "reviewed_utc": "2026-10-28T11:06:16.245615+00:00",
+    "reviewer": "Main agent directly opened all five contact pages",
+    "sample_count": 37,
+    "scope": "All decoded contact samples, the edit join and all eight completed-output review anchors; not every video frame.",
+    "findings": [
+      "Edit join changes accepted hair example directly to dog; excluded dance case absent in reviewed samples.",
+      "Actual source/log monitor and the accepted eight result reviews appear in the decoded recording.",
+      "Frame0 is black during capture initialization; later sampled frames show the expected monitor.",
+      "Raw largest decoded video timestamp gap is0.133 seconds; public CFR edit holds frames. No dropped-frame-free claim.",
+      "First presentation pass contains the old ROI boxes/footer; final delivery uses the later motion revision."
+    ]
+  }
+}
