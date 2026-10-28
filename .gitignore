@@ -28,3 +28,5 @@ __pycache__/
 venv/
 .vfx/
 
+/reel_caption_local_manifest.json
+/reel_collection_local_manifest.json

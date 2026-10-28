@@ -1,0 +1,287 @@
+{
+  "accepted_cases": 13,
+  "historically_processed_source_frames": 1288,
+  "presentation_cache_frames": 1112,
+  "model_reinference_this_revision": false,
+  "ground_truth_available": false,
+  "accuracy_metrics_computed": false,
+  "prior8_native_review": "qa/manual_review.json",
+  "legacy5_native_review": "docs/legacy_reuse_audit.json",
+  "final_reel_visual_review": {
+    "status": "VISUALLY_REVIEWED_ENCODED_SAMPLES",
+    "revision": "collection_v7",
+    "reviewed_utc": "2026-10-28T19:02:26.680853+00:00",
+    "reviewer": "Main directly opened all13 actual encoded contacts plus listed full1080 detail/credit frames.",
+    "scope": "117 selected decoded frames and selected full-resolution views; not every-frame manual visual inspection. Prior native source/alpha findings retained.",
+    "evidence": [
+      {
+        "id": "01_hair_glasses",
+        "file": "qa/collection_encoded/01_hair_glasses_collection_encoded.jpg",
+        "sha256": "8d340174f5444f9f0948b9e1c72a09a93a1e631b2ed1902cbb09d34dc95ab617",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Opened all nine actual encoded samples. Wide studio shot, first face/hair zoom, alpha, black/white and deeper curl/checker views align between upper/lower panels. Fine curls are visible with soft edges; other foreground people/equipment remain. Credit stays inside lower picture; no case title or ROI rectangle."
+      },
+      {
+        "id": "02_male_presenter",
+        "file": "qa/collection_encoded/02_male_presenter_collection_encoded.jpg",
+        "sha256": "b9db34e0e5ba27c44af98d9a7785797921916b3f84cc93549c95110760f57bb6",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine decoded samples show the clothed male, moving facial poses and increasing hair crop. Alpha silhouette, black/white comparisons and checker end are present. Short hair has a firm outline with limited fine strands; no new detail reconstruction is claimed."
+      },
+      {
+        "id": "03_dog",
+        "file": "qa/collection_encoded/03_dog_collection_encoded.jpg",
+        "sha256": "0c1e46df1a97c5cd42211bdd5bf7d9186a6a5b291b4d4bdd5a9aa31df2fa5f69",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples show changing head/tongue poses, ear and muzzle detail, soft alpha and checker result. Blur and smooth fur edges remain apparent at the digital detail crop. Upper/lower views use the same subject moment."
+      },
+      {
+        "id": "04_sheer_shawl",
+        "file": "qa/collection_encoded/04_sheer_shawl_collection_encoded.jpg",
+        "sha256": "e0c60b8fd634eb831a1da7054747d7cd8e802c3194c555e071581714def45295",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples and actual1080 detail frame509 opened. Checker remains visible through the blue shawl and its folds, opaque arm stays distinct, and hair/alpha views occur earlier. Enlarged texture and soft edge are retained rather than hidden. Caption reads the exact requested two lines."
+      },
+      {
+        "id": "05_furniture",
+        "file": "qa/collection_encoded/05_furniture_collection_encoded.jpg",
+        "sha256": "01cc69b3df30cd789292fcacede3ef8359337ed8a3dd00ef31445b705af291a0",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples show original tracking crosses, keyed couch/blanket, solid alpha and hard-edge details on black/white/checker. Source camera movement changes couch position within the fixed ROI. Physical markers/source limitations remain documented; no geometry guide is drawn."
+      },
+      {
+        "id": "06_office_pair",
+        "file": "qa/collection_encoded/06_office_pair_collection_encoded.jpg",
+        "sha256": "646f2c33cc65f15bc2807bb0c90255d95c7e1c31a84e9741fd8cba9c3ec56f1d",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples show both coworkers in the wide and first zoom, changing poses and the deeper male hair crop. Alpha contains both figures. Fine hair rims and softened detail remain visible; matching panel alignment, white outer margins and lower credit are consistent."
+      },
+      {
+        "id": "07_mature_pair",
+        "file": "qa/collection_encoded/07_mature_pair_collection_encoded.jpg",
+        "sha256": "dfa96ee9f48a2860515fe0721bded2711e6a02b55642455d2bed003307dbdae8",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples show original portrait footage with gray side padding within the BEFORE panel, both subjects, and gray-hair detail. The gray source padding is distinct from the blank white outer canvas. Checker/black/white display the hair edge; no upper Presenter or individual title."
+      },
+      {
+        "id": "08_male_prop",
+        "file": "qa/collection_encoded/08_male_prop_collection_encoded.jpg",
+        "sha256": "57ff431717282841c92460998917c4894aa19d8b806f266fa883be59168d71e8",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples show the clothed man/blue bin, first prop/hand comparison, alpha gaps and deeper hand/bin edge. Portrait source side padding remains inside source panel; outer canvas stays white. Existing motion and exact lower-right credit are retained."
+      },
+      {
+        "id": "09_legacy_hair",
+        "file": "qa/collection_encoded/09_legacy_hair_collection_encoded.jpg",
+        "sha256": "32544a2239d3591e83507638ce54b52c794922cfffa5603dbb8dd68aa69dcd3f",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples and actual1080 frame509 opened. Earlier real hair result is now in the same two-panel layout. Fine loose tips and semitransparent dark strands show over checker and white, while coarse matte/softness and original low-resolution texture remain visible. This is historical display reuse, not new native-quality proof."
+      },
+      {
+        "id": "10_legacy_motion_blur",
+        "file": "qa/collection_encoded/10_legacy_motion_blur_collection_encoded.jpg",
+        "sha256": "373e3c65ab65fb86f2230fd1d45baffb1e5cd0d1b71559c7d7795b30b6c9ea0f",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples and actual1080 frame509 opened. Moving forearm/hand becomes soft alpha and translucent checker blur. Deeper fixed elbow/forearm ROI can let the hand leave view, as visible in last sample. Prior frame90 full1080 also checked for white gutter after guard failure; actual geometry remained correct."
+      },
+      {
+        "id": "11_legacy_metal_glasses",
+        "file": "qa/collection_encoded/11_legacy_metal_glasses_collection_encoded.jpg",
+        "sha256": "a35051a6a738e270612de9c228cc69d90089b0fcf19740bd04d6f1e38e374090",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples and actual1080 frame509 opened. Lens transparency/reflections, fine metal arms and hanging label are visible on alpha/black/white/checker. A gray/brown lens/reflection tint and some spill remain; no physically correct transmission or ground-truth claim. Exact credit is legible and right-aligned."
+      },
+      {
+        "id": "12_legacy_smoke",
+        "file": "qa/collection_encoded/12_legacy_smoke_collection_encoded.jpg",
+        "sha256": "b405a54cf6ca53259f2edf87a240834f0cdd1789d591fe8163d7cc73d2d15eef",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples and actual1080 frame509 opened. Plume opacity/faint wisps are visible on checker and black; white background loses contrast as expected. Smoke generator/ladder and right-edge equipment remain. Historic pale-blue display and gAMA1.0 versus sRGB-convention ambiguity are retained, not silently corrected."
+      },
+      {
+        "id": "13_legacy_fullbody",
+        "file": "qa/collection_encoded/13_legacy_fullbody_collection_encoded.jpg",
+        "sha256": "14e121a00d0d2b39e05aec749a0173f3ee5a026f3d7b0be5b429349b9fcaaec5",
+        "indices": [
+          0,
+          67,
+          90,
+          112,
+          135,
+          180,
+          315,
+          360,
+          509
+        ],
+        "findings": "Nine samples plus actual1080 frames000/509 opened. Wide body and translucent veil are visible, followed by upper-body/cloth detail. Fan, set wall/lights and other non-green equipment remain in the wide matte, and contact shadow is lost. These limits are explicit. White margins match; lower caption remains readable and inside the picture."
+      }
+    ],
+    "full1080_evidence": [
+      {
+        "file": "qa/collection_encoded/04_sheer_shawl_frame509.png",
+        "sha256": "d447353f19601a9b52b6026228f22619a215a839062a8b4a9a7993cd92cff867",
+        "finding": "Full1080: checker through sheer blue material and a softer arm boundary; caption exact, right-aligned, two white boxes in lower picture. Outer top/bottom white margins visually equal."
+      },
+      {
+        "file": "qa/collection_encoded/09_legacy_hair_frame509.png",
+        "sha256": "46222dadd57556b6b3c386b78b64bb9a7367121cc98eecdbc6f18f628b4106cc",
+        "finding": "Full1080: loose hair strands and translucent tips visible over checker; softness/coarse historical matte remain. Exact two-line credit and blank56px outside margins verified visually."
+      },
+      {
+        "file": "qa/collection_encoded/11_legacy_metal_glasses_frame509.png",
+        "sha256": "a897f9e70f8ea31444a471347a5c9d749c9420dab9276c144ddb276a21c2373e",
+        "finding": "Full1080: transparent lens and bright metal reflections survive; gray/brown residual tint visible. Title-free top margin and correctly positioned white-box/black caption."
+      },
+      {
+        "file": "qa/collection_encoded/12_legacy_smoke_frame509.png",
+        "sha256": "1dcdc25a7a438af0d1134434e290d732ebe5319c3d2183ee1ea6e49136f83d8d",
+        "finding": "Full1080: transparent wisps on checker, pale-blue historical foreground interpretation, equipment retained at right edge. Credit is legible and inside the lower picture."
+      },
+      {
+        "file": "qa/collection_encoded/13_legacy_fullbody_frame000.png",
+        "sha256": "b817684ed1e044a677d53012d66097d9010af54cbbf37836e98227ba49dfb4e7",
+        "finding": "Full1080 wide: fan, wall and lights retained in matte, missing floor shadow, translucent veil; same time/view in top and bottom. Equal white outer margins and exact lower-right credit."
+      },
+      {
+        "file": "qa/collection_encoded/13_legacy_fullbody_frame509.png",
+        "sha256": "fb19f494403205b8edd7eb8244c4f16ee4a8fd90b75329af7ee9fed982e83e15",
+        "finding": "Full1080 detail: shoulder, hand, hair and transparent cloth; digital enlargement and source softness visible. White gap and outer margins correct; credit exact."
+      },
+      {
+        "file": "qa/collection_encoded/10_legacy_motion_blur_frame509.png",
+        "sha256": "24cc8f5edb5475bbe3d45ae0773544cd3efbe064c27c97c1b94f17f2e054b6d6",
+        "finding": "Full1080 detail: fixed forearm/elbow crop, hand outside frame at this instant, checker shows soft edge. This is not a frozen camera source; other sampled poses and clocks verify motion. Exact creator caption visible."
+      }
+    ],
+    "notes": [
+      "Main directly opened all13 actual encoded nine-cell contacts in this turn after the final audit succeeded:117 selected decoded frames. Seven listed actual full1080 stills were also opened. This is sampled visual inspection, not an every-frame manual playback approval.",
+      "Actual encoded presentation approved: title-free white outer canvas with matched56px margins and22px middle gap, two registered views, white/black panel tags and exact two-line creator caption inside the lower-right picture. No ROI guide rectangles or outside footer captions.",
+      "Timing is bound by the technical audit:15-frame wipes,30-frame material dwells,90/120-frame checker holds and two zoom stages. Contacts show changing source poses; short excerpts repeat at their recorded original speed. A still contact alone does not measure perceived cadence.",
+      "White-edge failures were consumer issues, preserved rather than marked successful. All117 white bands were measured and failing actual full images opened. Exact authored margins and rawRGB hashes stay strict; decoded H264 boundary-band statistics are descriptive. No media rerender or alteration during consumer correction.",
+      "Legacy original color tags are incomplete and the smoke source gAMA1.0 conflicts with prior sRGB-convention interpretation. The prior displayed result is reproduced; this is not calibrated camera colorimetry or inherited native proof for the added five.",
+      "No ground-truth alpha, new inference or download. Digital crop does not restore new resolution. Spill/reflection, soft/coarse matte, retained set equipment and lost floor shadow remain documented. Presentation approval does not mean perfect keying.",
+      "OBS was not started/stopped/restarted by this revision. No new process recording is claimed; prior capture is kept in older releases."
+    ],
+    "original_encoded_audit_sha256": "d932960a27a4e95fb55ed588d0e2fcc7a5a9b6c20b6d1bb5e668cd90ca7095bb"
+  }
+}

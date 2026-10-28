@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "proof_kind": "LEGACY_STREAMCOPY_PAR_AND_CODED_PAYLOAD_IDENTITY",
+  "cases": [
+    {
+      "id": "09_legacy_hair",
+      "native_movie": {
+        "path": "outputs/hair_detail/hair_detail_cutout.mov",
+        "bytes": 133968691,
+        "mtime_ns": 1793009580122655000,
+        "sha256": "edeab04fdc2d807caf15c5027c6b59ae801754625816d670908776e7d905e915"
+      },
+      "tagged_movie": {
+        "path": "outputs/hair_detail/hair_detail_RGBA_16x9.mov",
+        "sha256": "8d1f3c22202d1e2d31894d36f7f8c22ee3128c8506ac901a3772397295469059",
+        "bytes": 133968757
+      },
+      "native_hash_note": "Reuses full input-freeze SHA with unchanged size/mtime; preparation recomputes all originals before and after.",
+      "tagged_full_sha_recomputed_before_after": true,
+      "native_stream": {
+        "width": 1280,
+        "height": 1080,
+        "pix_fmt": "yuva444p12le",
+        "color_space": "bt709",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "80"
+      },
+      "tagged_stream": {
+        "width": 1280,
+        "height": 1080,
+        "sample_aspect_ratio": "3:2",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuva444p12le",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "80"
+      },
+      "native_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/colr",
+          "offset": 133967913,
+          "size": 18,
+          "kind": "nclc",
+          "primaries": 2,
+          "transfer": 2,
+          "matrix": 1,
+          "range_field_present": false
+        }
+      ],
+      "tagged_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/pasp",
+          "offset": 133967913,
+          "hSpacing": 3,
+          "vSpacing": 2
+        }
+      ],
+      "all_ordered_coded_packets_pts_dts_durations_sizes_payload_hashes_equal": true,
+      "coded_packet_count": 80,
+      "ordered_packet_ledger_sha256": "d27fa66ef5e2e2599517e4d05d413ddedba8b6dff8b4573b8eafff500c0ef2ac",
+      "physical_resize": false,
+      "correct_display_size": [
+        1920,
+        1080
+      ],
+      "interpretation": "Tagged16x9 derivative changes PAR metadata only; caches use original model movie and physically correct display pixels in linear light. Tagged derivative is not separately fully decoded; matching complete coded packets and clocks is streamcopy evidence, and original full decode is recorded separately."
+    },
+    {
+      "id": "10_legacy_motion_blur",
+      "native_movie": {
+        "path": "outputs/motion_blur/motion_blur_cutout.mov",
+        "bytes": 41460573,
+        "mtime_ns": 1793009634275591800,
+        "sha256": "b80110e6f6714f8c21714e0fa53689257a9bc6198daf9fbabbff27bbe43f8a46"
+      },
+      "tagged_movie": {
+        "path": "outputs/motion_blur/motion_blur_RGBA_16x9.mov",
+        "sha256": "54891397ae5a1a6fa845b155fe7b0678bfc4066712ee04c48ddf47849d2c178e",
+        "bytes": 41460639
+      },
+      "native_hash_note": "Reuses full input-freeze SHA with unchanged size/mtime; preparation recomputes all originals before and after.",
+      "tagged_full_sha_recomputed_before_after": true,
+      "native_stream": {
+        "width": 1280,
+        "height": 1080,
+        "pix_fmt": "yuva444p12le",
+        "color_space": "bt709",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "50"
+      },
+      "tagged_stream": {
+        "width": 1280,
+        "height": 1080,
+        "sample_aspect_ratio": "3:2",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuva444p12le",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "50"
+      },
+      "native_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/colr",
+          "offset": 41460035,
+          "size": 18,
+          "kind": "nclc",
+          "primaries": 2,
+          "transfer": 2,
+          "matrix": 1,
+          "range_field_present": false
+        }
+      ],
+      "tagged_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/pasp",
+          "offset": 41460035,
+          "hSpacing": 3,
+          "vSpacing": 2
+        }
+      ],
+      "all_ordered_coded_packets_pts_dts_durations_sizes_payload_hashes_equal": true,
+      "coded_packet_count": 50,
+      "ordered_packet_ledger_sha256": "ce8fe1133174af0332f0fe1a5d3ca2e593e53a15b94fd8d8578c3e5f3b853ef1",
+      "physical_resize": false,
+      "correct_display_size": [
+        1920,
+        1080
+      ],
+      "interpretation": "Tagged16x9 derivative changes PAR metadata only; caches use original model movie and physically correct display pixels in linear light. Tagged derivative is not separately fully decoded; matching complete coded packets and clocks is streamcopy evidence, and original full decode is recorded separately."
+    },
+    {
+      "id": "11_legacy_metal_glasses",
+      "native_movie": {
+        "path": "outputs/more3/metal_glasses/metal_glasses_cutout.mov",
+        "bytes": 133743284,
+        "mtime_ns": 1793015096204458600,
+        "sha256": "f1e73f2735eef04f0d5f5d68a53064239bbf6c7751c73aea3be33db13de9d715"
+      },
+      "tagged_movie": {
+        "path": "outputs/more3/metal_glasses/metal_glasses_RGBA_16x9.mov",
+        "sha256": "8dfe8e43fa68089af874f54cac8856845cdbb7c34ca18ad61c8c47ceb81ce1b8",
+        "bytes": 133743350
+      },
+      "native_hash_note": "Reuses full input-freeze SHA with unchanged size/mtime; preparation recomputes all originals before and after.",
+      "tagged_full_sha_recomputed_before_after": true,
+      "native_stream": {
+        "width": 1280,
+        "height": 1080,
+        "pix_fmt": "yuva444p12le",
+        "color_space": "bt709",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "90"
+      },
+      "tagged_stream": {
+        "width": 1280,
+        "height": 1080,
+        "sample_aspect_ratio": "3:2",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuva444p12le",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "90"
+      },
+      "native_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/colr",
+          "offset": 133742426,
+          "size": 18,
+          "kind": "nclc",
+          "primaries": 2,
+          "transfer": 2,
+          "matrix": 1,
+          "range_field_present": false
+        }
+      ],
+      "tagged_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/pasp",
+          "offset": 133742426,
+          "hSpacing": 3,
+          "vSpacing": 2
+        }
+      ],
+      "all_ordered_coded_packets_pts_dts_durations_sizes_payload_hashes_equal": true,
+      "coded_packet_count": 90,
+      "ordered_packet_ledger_sha256": "91f60a90e50c1d41976fbe1a1939bd1405ffd27632ae1b4db1d2ac7e9fb2e99d",
+      "physical_resize": false,
+      "correct_display_size": [
+        1920,
+        1080
+      ],
+      "interpretation": "Tagged16x9 derivative changes PAR metadata only; caches use original model movie and physically correct display pixels in linear light. Tagged derivative is not separately fully decoded; matching complete coded packets and clocks is streamcopy evidence, and original full decode is recorded separately."
+    },
+    {
+      "id": "12_legacy_smoke",
+      "native_movie": {
+        "path": "outputs/more3/smoke/smoke_cutout.mov",
+        "bytes": 164090260,
+        "mtime_ns": 1793015260509215100,
+        "sha256": "03b9e5b180548aee2a78df811df223d762beb117304eabf8eb3cd35dbe1de8fa"
+      },
+      "tagged_movie": {
+        "path": "outputs/more3/smoke/smoke_RGBA_16x9.mov",
+        "sha256": "f38b738da455a29b72e82b15d54534b067e56f9ac4c746e7f8c4a21bceaa2222",
+        "bytes": 164090326
+      },
+      "native_hash_note": "Reuses full input-freeze SHA with unchanged size/mtime; preparation recomputes all originals before and after.",
+      "tagged_full_sha_recomputed_before_after": true,
+      "native_stream": {
+        "width": 1280,
+        "height": 1080,
+        "pix_fmt": "yuva444p12le",
+        "color_space": "bt709",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "120"
+      },
+      "tagged_stream": {
+        "width": 1280,
+        "height": 1080,
+        "sample_aspect_ratio": "3:2",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuva444p12le",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "120"
+      },
+      "native_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/colr",
+          "offset": 164089162,
+          "size": 18,
+          "kind": "nclc",
+          "primaries": 2,
+          "transfer": 2,
+          "matrix": 1,
+          "range_field_present": false
+        }
+      ],
+      "tagged_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/pasp",
+          "offset": 164089162,
+          "hSpacing": 3,
+          "vSpacing": 2
+        }
+      ],
+      "all_ordered_coded_packets_pts_dts_durations_sizes_payload_hashes_equal": true,
+      "coded_packet_count": 120,
+      "ordered_packet_ledger_sha256": "43f0d53e9a2a0415b5c2adecbcd67556484ad327d72547eb34b392feca593814",
+      "physical_resize": false,
+      "correct_display_size": [
+        1920,
+        1080
+      ],
+      "interpretation": "Tagged16x9 derivative changes PAR metadata only; caches use original model movie and physically correct display pixels in linear light. Tagged derivative is not separately fully decoded; matching complete coded packets and clocks is streamcopy evidence, and original full decode is recorded separately."
+    },
+    {
+      "id": "13_legacy_fullbody",
+      "native_movie": {
+        "path": "outputs/more3/uneven_fullbody/uneven_fullbody_cutout.mov",
+        "bytes": 127589075,
+        "mtime_ns": 1793015394612108300,
+        "sha256": "c761746ec6e9bba67c6b795c50bdc5e2186d48a61d5cdb81d5b9d93a2bbb8e48"
+      },
+      "tagged_movie": {
+        "path": "outputs/more3/uneven_fullbody/uneven_fullbody_RGBA_16x9.mov",
+        "sha256": "00bc199b2383e1d4221f468e5e033075ffeb60fbb1c8946ce012ae574758b95a",
+        "bytes": 127589141
+      },
+      "native_hash_note": "Reuses full input-freeze SHA with unchanged size/mtime; preparation recomputes all originals before and after.",
+      "tagged_full_sha_recomputed_before_after": true,
+      "native_stream": {
+        "width": 960,
+        "height": 720,
+        "pix_fmt": "yuva444p12le",
+        "color_space": "bt709",
+        "avg_frame_rate": "60/1",
+        "nb_frames": "180"
+      },
+      "tagged_stream": {
+        "width": 960,
+        "height": 720,
+        "sample_aspect_ratio": "4:3",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuva444p12le",
+        "avg_frame_rate": "60/1",
+        "nb_frames": "180"
+      },
+      "native_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/colr",
+          "offset": 127587497,
+          "size": 18,
+          "kind": "nclc",
+          "primaries": 2,
+          "transfer": 2,
+          "matrix": 1,
+          "range_field_present": false
+        }
+      ],
+      "tagged_color_and_PAR_atoms": [
+        {
+          "path": "/moov/trak/mdia/minf/stbl/stsd/ap4h/pasp",
+          "offset": 127587497,
+          "hSpacing": 4,
+          "vSpacing": 3
+        }
+      ],
+      "all_ordered_coded_packets_pts_dts_durations_sizes_payload_hashes_equal": true,
+      "coded_packet_count": 180,
+      "ordered_packet_ledger_sha256": "868ea2cd465deacaedfaa51abc241d874919510419e00db840e99a0a7e5a639c",
+      "physical_resize": false,
+      "correct_display_size": [
+        1280,
+        720
+      ],
+      "interpretation": "Tagged16x9 derivative changes PAR metadata only; caches use original model movie and physically correct display pixels in linear light. Tagged derivative is not separately fully decoded; matching complete coded packets and clocks is streamcopy evidence, and original full decode is recorded separately."
+    }
+  ],
+  "color_note": "Actual nclc primaries2/transfer2 mean unspecified, matrix1 means709. nclc has no range bit; ffprobe omits range. Explicit709/TV default reproductions are playback evidence, not measured source colorimetry."
+}

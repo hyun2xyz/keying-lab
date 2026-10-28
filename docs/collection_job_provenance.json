@@ -1,0 +1,56 @@
+{
+  "render_job": "46a7f042f18d059206c4",
+  "render_job_state_preserved": "FAILED",
+  "completed_media_step": {
+    "name": "reuse_verified7_and_encode_only_missing6",
+    "state": "SUCCEEDED",
+    "output_receipt_sha256": "d820b85de4245fab454e1ac6e244c25e6e05f424217a894671561e176544437e"
+  },
+  "failed_consumer_step": {
+    "name": "audit_all14_completed_collection_recovery",
+    "state": "FAILED",
+    "reason": "Four-pixel-inset lossy white guard observed4 display codes instead of<=3. Original audit/code and media retained."
+  },
+  "intermediate_consumer": {
+    "job": "a28cd53baa40a053e543",
+    "preserved_state": "FAILED",
+    "reason": "The added whole22px-gutter mean cap was invalid for its16px boundary bands; all117 core measurements and actual frame were examined before final consumer revision."
+  },
+  "successor_audit_job": "e4a3ee46042db29ce0ba",
+  "successor_audit_state": "SUCCEEDED",
+  "successor_audit_sha256": "d932960a27a4e95fb55ed588d0e2fcc7a5a9b6c20b6d1bb5e668cd90ca7095bb",
+  "white_region_method": {
+    "revision": "measured_8px_boundary_band",
+    "preserved_original_audit_sha256": "472347cd372462515f5e60a6cb919d47ca4737f9a665ecbf1e648fd12cebd6e2",
+    "prior_guard_failure": "The first consumer required <=3 display codes four pixels from the panel boundary; observed first-case error was4 at y48 with an exact white core above y48.",
+    "interpretation": "Lossy H264 transforms can ring within8 pixels of a high-contrast panel edge. Full authored white areas and all6630 timeline events remain exact. Whole-band means and decoded8px-inset cores are checked independently; boundary residuals are descriptive and are not matte accuracy.",
+    "full_header_footer_mean_limit_codes": 1.0,
+    "white_core_mean_limit_codes": 1.0,
+    "whole_gutter_statistics": "Descriptive: its22px band contains16px of boundary bands; no full-band mean pass threshold is claimed.",
+    "prior_consumer_sha256": "397210c568e5e97f1728c4f887a4bfbc301afa240e3e711e32783b752c7c93ac",
+    "all13_region_diagnosis_sha256": "be3e2e48ac256dbe66ac6052f51ffb6c33f84ba197c8081abe3c13d41afdc2e7",
+    "additional_preserved_failure": "The first8px consumer added a whole-gutter mean<=1 cap absent from the original audit; motion-blur frame90 measured1.219767. All117 decoded header/footer cores were exact white and gutter-core max was<=3. Inspecting that actual frame showed a white22px gutter with narrow boundary ringing; no media was changed.",
+    "core_max_error_limit_codes": 3,
+    "core_ranges_y_half_open": {
+      "header": [
+        0,
+        48
+      ],
+      "gutter": [
+        672,
+        678
+      ],
+      "footer": [
+        1302,
+        1350
+      ]
+    },
+    "rerendered_or_modified_media": false
+  },
+  "reencoded_during_audit_repair": false,
+  "frozen_input_hashes_rechecked": true,
+  "interpretation": "Technical media completion and the successor display audit are separate evidence. No failed job was changed to success.",
+  "successor_consumer_source": "src/audit_collection_boundaries.py",
+  "successor_consumer_source_sha256": "b1957cf1e8f96c20bfef9f4f108444d3d2b4eb6481aa26362ebddd63cb2689a9",
+  "scope": "All14 completed videos retained;117 decoded samples and all6630 timeline events checked by successor consumer. No reencode for audit repair."
+}

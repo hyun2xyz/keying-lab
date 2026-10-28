@@ -15,6 +15,11 @@ logos, likenesses, music or third-party software.
 | Two office coworkers | Mixkit, video42638 | [Mixkit Stock Video Free License](https://mixkit.co/license/#videoFree), explicitly selected on this video's official download page. |
 | Mature pair | Mixkit, video100760 | [Mixkit Stock Video Free License](https://mixkit.co/license/#videoFree), explicitly selected on this video's official download page. |
 | Clothed man holding a bin | Lara Jameson / Pexels, video9323252 | [Pexels License](https://www.pexels.com/license/). Free editing/use; no implied endorsement or stock-library redistribution. |
+| Earlier hair detail / Locked Backdrop | Hollywood Camera Work | Official practice-plate terms and the downloaded archive's bundled notice permit edited results and credited instructional work. Originals are not re-hosted. |
+| Earlier hand motion blur / With Motion Blur | Hollywood Camera Work | Same official practice-plate terms; prior actual model output reused. |
+| Earlier metal glasses | Hollywood Camera Work | Same official practice-plate terms; lens/reflection demo. Brand/logo ownership is unchanged. |
+| Earlier smoke | Hollywood Camera Work | Same official practice-plate terms; legacy display convention and missing color information documented separately. |
+| Earlier full body / Godiva Wide | Hollywood Camera Work | Same official practice-plate terms; this differs from the Godiva Close excerpt above. |
 
 The edited breakdowns, alpha passes and transformed model outputs remain
 subject to these underlying rights. No CC0 dedication or blanket footage
@@ -37,7 +42,16 @@ explain the processing. The gray checker, native-alpha display, crop, timing,
 credits and comparisons are newly authored for these tests. There is no
 endorsement by any person, creator, platform, or the Blender Foundation.
 
-The final motion revision removes on-screen footer text at the user's request.
+The collection revision includes13 edited comparisons, reusing the earlier
+five HCW tests and the existing eight-case set. No original plate or isolated
+cutout/alpha is a public release asset. The bundled HCW notices are retained
+locally; obtain footage from the official practice-plate page above.
+
+The final collection has no text in the outer white margins. The user's
+two-line creator credit is inside the lower picture: “Only an LLM +
+CorridorKey2.0” / “See Caption for Details!”. This is separate from source
+attribution. The licensed local Jibaek120 font is used for rendering and is
+not redistributed; its file identity is recorded for reproducibility.
 Credits and source pages remain in each MP4's `artist`/`comment` metadata and
 the accompanying README, release description and this rights document. The
 Blender Foundation CC BY attribution and license link remain in these materials.

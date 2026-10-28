@@ -17,3 +17,14 @@ src/render_pause_reels.py -text
 reel_final_manifest.json -text
 src/render_final_reels.py -text
 
+reel_caption_manifest.json -text
+src/render_caption_reels.py -text
+reel_collection_manifest.json -text
+collection_reference.json -text
+src/render_collection_reels.py -text
+src/prepare_legacy_reuse.py -text
+src/audit_collection_reels.py -text
+src/collection_encoder_runtime.py -text
+src/render_collection_hidden.py -text
+src/audit_collection_display.py -text
+src/audit_collection_boundaries.py -text

@@ -1,29 +1,23 @@
 # Reading the evidence
 
-The final delivery uses **final_v5**: two-stage matched zoom,0.5-second vertical
-before/after wipes with1-second comparison dwells, then3/4-second checker holds.
-White tags use black text; there are no main case headings, ROI outlines or footer text.
-Each real-footage case is17seconds at1080×1350/30fps, encoded directly from native
-PNGs with H264 High/CRF10/preset slow. The combined reel is136seconds.
-The eight real camera inputs and computed mattes are shared with the first pass.
+Current delivery: collection_v7,13 existing real-footage tests at1080×1350/30fps.
+Each case is17seconds; combined221seconds. White outer margins are56px each,
+the gutter is22px, and the two-line creator credit is inside the lower picture.
 
-| Evidence | Purpose |
+| Evidence | Scope |
 | --- | --- |
-| `qa/manual_review.json` | Main native-matte findings and final presentation review. |
-| `qa/*_roi_review*.jpg` | Selected native source/alpha/checker/black/white samples, including adjacent frames46–50. |
-| `docs/hold_render_audit.json`, `docs/hold_render_receipt.json` and `qa/hold_encoded/` | Final1080 HQ encode: all4080 timeline events checked,72 decoded samples directly reviewed, plus three full1080 detail views. |
-| `docs/hold_control.json` | Authored wipe/dwell/zoom/header controls, separate from actual encoded-output proofs. |
-| `docs/hold_background_completion.json` | Independent completion/hash validation after the original supervisor exited. Original job state was preserved; no rerender was performed. |
-| `docs/obs_hold_audit.json` and `qa/hold_process/` | Actual editing preparation and intermediate pilots. Recording was stopped at user request before final1080 HQ render/review; those stages are outside its coverage. |
-| `docs/motion_render_audit.json` and `qa/motion_encoded/` | Earlier12-second motion presentation, preserved as v1.0.0 history. |
-| `docs/obs_motion_audit.json` and `qa/motion_process/` | Earlier zoom/wipe revision capture and decoded evidence. |
-| `docs/obs_recording_audit.json` and `qa/process/` | Initial inference and first-edit work history. The rejected former second example is cut out of the public recording. |
-| `docs/reel_render_receipt.json`, `docs/reel_render_audit.json`, `qa/encoded_stages/` | First presentation pass, kept as history; its ROI boxes/footer are superseded. These are not the final released reels. |
+| `qa/collection_review.json` and `qa/collection_encoded/` | Current actual encoded117sample visual review and selected full1080 views. |
+| `docs/collection_render_audit.json` and `docs/collection_render_receipt.json` | All14 full decodes/color/clock/metadata; all6630 unique authored timeline events, credit/white-margin checks; old8 source/viewport/wipe clocks preserved. |
+| `docs/legacy_reuse_audit.json`, `docs/legacy_display_streamcopy_audit.json`, `qa/legacy_native/` | Five earlier results:520ProRes frames fully decoded,344prepared24fps samples,688newPNG caches, original540files unchanged. Existing display interpretation is preserved, not newly measured camera colorimetry. |
+| `docs/collection_layout_review.json` | Native13preview approval, v5 panel comparisons outside the new caption, and legacy detail ROI selection. |
+| `qa/manual_review.json`, `docs/hold_render_audit.json`, `qa/hold_encoded/` | Prior8-case v1.1.0 native/final presentation history. |
+| `docs/motion_render_audit.json`, `qa/motion_encoded/` | Earlier v1.0.0 motion presentation. |
+| `docs/obs_recording_audit.json`, `docs/obs_motion_audit.json`, `docs/obs_hold_audit.json` | Earlier recordings. OBS stayed stopped for this latest edit; no new capture of this batch is claimed. |
 
-Technical full decodes, color/clock checks and file identities are separate from
-sampled visual review. No source has ground-truth alpha. The fixed screen probe
-and inter-frame alpha change are diagnostics, not accuracy or flicker scores.
-The furniture's physical tracking-marker residue remains visible in some views.
+Technical integrity is separate from sampled visual review. No source provides
+ground-truth alpha. Cropping enlarges existing pixels. Legacy missing color
+tags, smoke gamma-interpretation conflict, spill, matte softness and retained
+studio equipment are documented. Original plates, isolated alpha/cutouts,
+font and model remain local. See [rights and credits](RIGHTS.md).
 
-Original stock/HCW camera plates, isolated foreground/alpha sequences and
-unredacted OBS capture remain local. See [rights and credits](RIGHTS.md).
+See `docs/collection_job_provenance.json` for the preserved failed consumer guards and the successful audit-only successor. Lossy8px boundary bands are descriptive; the authored white geometry stays exact.

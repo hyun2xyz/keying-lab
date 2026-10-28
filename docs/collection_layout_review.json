@@ -1,0 +1,355 @@
+{
+  "native_preview_review": {
+    "status": "MAIN_DIRECTLY_REVIEWED_ALL13_NATIVE_COLLECTION_CONTACTS",
+    "utc": "2026-10-28T17:56:23.470613+00:00",
+    "scope": "All13 nine-cell authored native contacts directly opened; legacy5 source/alpha/checker first/middle/last contacts also directly opened. Native full1080 credit samples viewed. Actual encoded final review is pending.",
+    "layout": {
+      "canvas": [
+        1080,
+        1350
+      ],
+      "top": [
+        0,
+        56,
+        1080,
+        608
+      ],
+      "bottom": [
+        0,
+        686,
+        1080,
+        608
+      ],
+      "outer_white_margins": [
+        56,
+        56
+      ],
+      "white_gutter": 22
+    },
+    "credit": [
+      "Only an LLM + CorridorKey2.0",
+      "See Caption for Details!"
+    ],
+    "cases": [
+      {
+        "id": "01_hair_glasses",
+        "contact": "qa/collection_native/01_hair_glasses_collection_contact.jpg",
+        "sha256": "cb405064c0ded8c8e53d3bd6c038c547f65d97ece723e291ca75adb5fb4bb974"
+      },
+      {
+        "id": "02_male_presenter",
+        "contact": "qa/collection_native/02_male_presenter_collection_contact.jpg",
+        "sha256": "ff2e0f051a4fe9cb2574446fce6775421be330a6f98f9f2c4285e58fa3f13b8e"
+      },
+      {
+        "id": "03_dog",
+        "contact": "qa/collection_native/03_dog_collection_contact.jpg",
+        "sha256": "10bb1c64ccb01f61baf7752458c9b7050e8c4ed28901e3a3548d2c6dbd17d482"
+      },
+      {
+        "id": "04_sheer_shawl",
+        "contact": "qa/collection_native/04_sheer_shawl_collection_contact.jpg",
+        "sha256": "11370e01f8436abc7ab1627d024234e5d8c1ab54a5f77295e6171a43a548b1bb"
+      },
+      {
+        "id": "05_furniture",
+        "contact": "qa/collection_native/05_furniture_collection_contact.jpg",
+        "sha256": "5e9b6fa9d1c1c7aeacf69fe39933df82200e8b6c67c4eaa93a023b71a8f1f627"
+      },
+      {
+        "id": "06_office_pair",
+        "contact": "qa/collection_native/06_office_pair_collection_contact.jpg",
+        "sha256": "3bf31b085dd5c8d968bd5463e361941f93267fdab01d14a92481d84e400a5a91"
+      },
+      {
+        "id": "07_mature_pair",
+        "contact": "qa/collection_native/07_mature_pair_collection_contact.jpg",
+        "sha256": "d3113803cdf633f3105df2517eaeb8387187a8c5d4c4b2741db2d6bb9ebf90ec"
+      },
+      {
+        "id": "08_male_prop",
+        "contact": "qa/collection_native/08_male_prop_collection_contact.jpg",
+        "sha256": "af79fc53d770bb432ab9ede693e7eb59eb7821ba73f6203cef53a65857d45413"
+      },
+      {
+        "id": "09_legacy_hair",
+        "contact": "qa/collection_native/09_legacy_hair_collection_contact.jpg",
+        "sha256": "6d88be2bb348dad17cf14fa1134543c3d323a5ce997c45740287aa0622bc1253"
+      },
+      {
+        "id": "10_legacy_motion_blur",
+        "contact": "qa/collection_native/10_legacy_motion_blur_collection_contact.jpg",
+        "sha256": "264bfac9b40830e6451986474a5b09422bb433879c89371e0557ab7a92129f17"
+      },
+      {
+        "id": "11_legacy_metal_glasses",
+        "contact": "qa/collection_native/11_legacy_metal_glasses_collection_contact.jpg",
+        "sha256": "ec154694d323622a3cfbde16a80b001797e1471e1738408e15fde7710def245c"
+      },
+      {
+        "id": "12_legacy_smoke",
+        "contact": "qa/collection_native/12_legacy_smoke_collection_contact.jpg",
+        "sha256": "36589fbc8c9b301ac58564d58b40b358420a040423ff71eaf94830492bac47e4"
+      },
+      {
+        "id": "13_legacy_fullbody",
+        "contact": "qa/collection_native/13_legacy_fullbody_collection_contact.jpg",
+        "sha256": "92fc500e806580cc2565fae6c20816911fa4cf3220762bbc9195eaa60f751e7a"
+      }
+    ]
+  },
+  "native_v5_panel_control": {
+    "status": "NATIVE_LAYOUT_CONTROL_PASSED_REQUIRES_VISUAL_REVIEW",
+    "renderer_sha256": "7894bfdf7d5ea17a914380812a08d4b1c7fa7e60aa346c23264955a4e1cc624e",
+    "manifest_sha256": "dc6491a44aebf09681072fe91ac17aab6eedde972b433f7ae46d957f8ac92c90",
+    "original_v5_renderer_sha256": "da93cf8d1574350fcf0a64b71d080727687a2c6d553c05d3a94717ed2c9e09db",
+    "body_font_unchanged_sha256": "2e108a6d8a628e51da033273afdd043910ca5e6b8dc5618f94d08b35b1a888ee",
+    "credit_font_sha256": "39dc0e4b8555dab3d0de7e823c52363a8181759e8bff5a08921cc1a70d0e7fe7",
+    "credit_geometry": [
+      {
+        "text": "Only an LLM + CorridorKey2.0",
+        "glyph_xy": [
+          767,
+          1241
+        ],
+        "box": [
+          764,
+          1239,
+          1056,
+          1262
+        ],
+        "size": 20
+      },
+      {
+        "text": "See Caption for Details!",
+        "glyph_xy": [
+          830,
+          1264
+        ],
+        "box": [
+          827,
+          1262,
+          1056,
+          1285
+        ],
+        "size": 20
+      }
+    ],
+    "observations": [
+      {
+        "id": "01_hair_glasses",
+        "frame": 0,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "01_hair_glasses",
+        "frame": 67,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "01_hair_glasses",
+        "frame": 180,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "01_hair_glasses",
+        "frame": 509,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "04_sheer_shawl",
+        "frame": 0,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "04_sheer_shawl",
+        "frame": 67,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "04_sheer_shawl",
+        "frame": 180,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "04_sheer_shawl",
+        "frame": 509,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "08_male_prop",
+        "frame": 0,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "08_male_prop",
+        "frame": 67,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "08_male_prop",
+        "frame": 180,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      },
+      {
+        "id": "08_male_prop",
+        "frame": 509,
+        "upper_panel_rgb_exact_v5": true,
+        "lower_panel_rgb_exact_v5_except_requested_credit": true,
+        "white_outer_margins": [
+          56,
+          56
+        ],
+        "white_gutter": 22
+      }
+    ],
+    "scope": "Twelve native authored frame comparisons across3 representative cases; not an encoded or every-frame pixel comparison."
+  },
+  "legacy_final_targets": {
+    "status": "MAIN_REVIEWED_NATIVE_SOURCE_ALPHA_SAMPLES",
+    "scope": "Main directly opened source/alpha/checker contacts at first/middle/last prepared frames. Final encoded visual review remains pending.",
+    "targets": {
+      "09_legacy_hair": {
+        "roi": [
+          120,
+          270,
+          1280,
+          720
+        ],
+        "detail_roi": [
+          200,
+          600,
+          640,
+          360
+        ],
+        "finding": "Left flyaway hair and curled tips stay visible at the three selected poses; face-only central crops miss the hair boundary. Main directly opened the source/alpha/checker contact; for09/12/13 also the proposed detailed contact."
+      },
+      "10_legacy_motion_blur": {
+        "roi": [
+          180,
+          60,
+          1440,
+          810
+        ],
+        "detail_roi": [
+          420,
+          300,
+          640,
+          360
+        ],
+        "finding": "Elbow/forearm edge is the fixed target. Rapid hand motion can leave this fixed crop; full opening preserves the entire original frame. Main directly opened the source/alpha/checker contact; for09/12/13 also the proposed detailed contact."
+      },
+      "11_legacy_metal_glasses": {
+        "roi": [
+          400,
+          40,
+          1520,
+          855
+        ],
+        "detail_roi": [
+          1040,
+          360,
+          760,
+          428
+        ],
+        "finding": "Lens/metal boundary and partial transparency selected across first/middle/last; original residual green reflections remain."
+      },
+      "12_legacy_smoke": {
+        "roi": [
+          300,
+          150,
+          1440,
+          810
+        ],
+        "detail_roi": [
+          480,
+          240,
+          960,
+          540
+        ],
+        "finding": "Growing plume needs a wider detail viewport. Leftmost wisps can leave this fixed crop late; do not treat it as complete plume coverage. Main directly opened the source/alpha/checker contact; for09/12/13 also the proposed detailed contact."
+      },
+      "13_legacy_fullbody": {
+        "roi": [
+          200,
+          0,
+          960,
+          540
+        ],
+        "detail_roi": [
+          380,
+          20,
+          480,
+          270
+        ],
+        "finding": "Raised arms, face and upper translucent veil; wider full-body composition is shown before zoom. Studio fan/wall remain in the actual matte. Main directly opened the source/alpha/checker contact; for09/12/13 also the proposed detailed contact."
+      }
+    }
+  }
+}
