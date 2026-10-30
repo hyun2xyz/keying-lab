@@ -222,7 +222,7 @@ def resolve_font(value: str | None) -> Path:
     candidates = [Path(value)] if value else []
     if not value:
         candidates += [Path(p) for p in glob.glob("C:/Windows/Fonts/*Jibaek*120*.otf")]
-        candidates += [Path(p) for p in glob.glob("C:/Users/Q/AppData/Local/Microsoft/Windows/Fonts/*Jibaek*120*.otf")]
+        candidates += [Path(p) for p in glob.glob(str(Path.home()/"AppData/Local/Microsoft/Windows/Fonts/*Jibaek*120*.otf"))]
         candidates += [Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")]
         candidates += [Path(p) for p in glob.glob("C:/Program Files/Side Effects Software/*/houdini/fonts/DejaVuSans.ttf")]
     for candidate in candidates:
