@@ -52,8 +52,6 @@ def main():
 [136초 1080×1350 릴스](https://github.com/hyun2xyz/keying-lab/releases/download/v1.1.0/keying_breakdown_real8_1080x1350.mp4) ·
 [개별 릴스·OBS 편집본·검수 패키지](https://github.com/hyun2xyz/keying-lab/releases/tag/v1.1.0)
 
-![실제 촬영 소스 8종](qa/source_contact.jpg)
-
 위에 원본, 아래에 실제 키잉 결과를 놓았습니다. 회색 체커보드, 같은 위치의 확대,
 모델 알파 화면이 포함됩니다. 네모 표시 없이 부드럽게 같은 영역으로 확대하고 세로 와이프로
 원본·체커·알파·검정/흰 배경을 비교합니다. 와이프를0.5초로 늦추고 각 비교 화면에서1초씩 머뭅니다. 첫 체커 결과3초, 머리카락·반투명 경계의 추가 확대·비교 뒤 체커 결과4초를 유지합니다. 카메라와 와이프만 멈추며 영상은 계속 움직입니다. 상단 컷 제목과 하단 자막을 모두 없애고 BEFORE/AFTER/ALPHA만 흰 박스·검정 글씨로 표시합니다. 정식1080×1350에서 H264 high/CRF10/slow로 직접 렌더했습니다.
